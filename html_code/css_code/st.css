@@ -10,21 +10,65 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
+  font-family:'Courier New';
+  border:5px solid cyan;
 }
-
 .container {
-  width: 80%;
-  margin: 20px auto;
-  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: auto;
+  max-width: 50px;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 100%;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-h1 {
-  color: #333;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-p {
-  color: #666;
-  line-height: 1.6;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ebcbae;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: auto;
+  max-width: 50px;
+  padding: 20px;
+  border-radius: 100%;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ebcbae;
 }

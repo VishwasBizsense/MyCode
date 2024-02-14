@@ -7,23 +7,31 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>My About Page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="css_code/st.css">
+    <link rel="icon" type="image/x-icon" href="tracking.png">
   </head>
   <body>
-    <header>
-      <h1>About Us</h1>
-      <nav style="color:#f34c19">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" target="_blank">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header >
+      <div class="container">
+          <div class="logo">
+              <img src="star.jpg" alt="Logo">
+              <h2>Stars.info</h2>
+          </div>
+          
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="constellation.html">Star &amp; Constellations</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="form.html">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
   </header>
-  <div class="container">
+  <div class="about">
       <h2>Our Mission</h2>
       <p>To reach every engineer worldwide.</p>
       <h2>Our Team</h2>
@@ -31,6 +39,10 @@
       <ul>
           <li>Vishwas Gandhi - CEO</li>
       </ul>
+      <video width="320" height="240" controls>
+        <source src="mov_bbb.mp4" type="video/mp4" controls muted autoplay>
+      Your browser does not support the video tag.
+      </video>
   </div>
   </body>
 </html>

@@ -7,11 +7,11 @@
     <!-- This is comment -->
     <head>
         <meta charset="utf-8">
-        <title>My HTML Page</title>
+        <title>My Star Page</title>
         <link rel="stylesheet" href="css_code\styles.css">
         <link rel="icon" type="image/x-icon" href="tracking.png">
     </head>
-    <body style="background-color: #E9d8e4;">
+    <body>
 
         <header >
             <div class="container">
@@ -23,67 +23,51 @@
                 <nav>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#stars">Star &amp; Constellations</a></li>
-                        <li><a href="about.html" target="_blank">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="constellation.html">Star &amp; Constellations</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="form.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
 
-        <main style="text-align: center;">
-            <section id="home">
-
-            </section>
+        <main>
+            <div class="sun">
+                <div class="pic">
+                    <img src="data:image/jpeg;base64,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" alt="Image of sun">
+                </div>
+                <div class="info">
+                    <h3>Closest Star to Earth : Sun</h3>
+                    <p>The Sun, located at the center of our solar system, is indeed the closest star to Earth. It is approximately 93 million miles (150 million kilometers) away from Earth, or about 1 astronomical unit (AU) in distance. The Sun is classified as a G-type main-sequence star, often referred to as a yellow dwarf, and it provides the energy that sustains life on Earth through the process of nuclear fusion, which converts hydrogen into helium in its core. Its proximity to Earth makes it the brightest object in our sky and the primary source of light and heat for our planet.</p>
+                </div>
+            </div>
+            <div class="sun">
+                <div class="pic">
+                    <img src="https://i0.wp.com/boingboing.net/wp-content/uploads/2020/09/stephenson-2-18-01-scaled.jpg?fit=2560%2C1413&ssl=1" alt="Image of sun">
+                </div>
+                <div class="info">
+                    <h3>Largest Star in Milky Way : Stephenson 218</h3>
+                    <p>
+                        Stephenson 218, also known as V766 Centauri, is a red hypergiant star located in the constellation Centaurus. It is one of the largest known stars in the Milky Way galaxy. Red hypergiants are massive stars that have reached an advanced stage in their evolution and are characterized by their enormous size and luminosity.Despite its enormous size and brightness, Stephenson 218 is located quite far from Earth, at a distance of approximately 11,000 light-years away. </p>
+                </div>
+            </div>
+            <div class="sun">
+                <div class="pic">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT88gWJfjcHLIUKPktN6iHBhZsz3QKkvRDnWg&usqp=CAU" alt="Image of sun">
+                </div>
+                <div class="info">
+                    <h3>Closest Star to Sun :Alpha Centauri</h3>
+                    <p>Proxima Centauri is a red dwarf star located in the constellation of Centaurus. It holds the distinction of being the closest known star to the Sun, making it a significant object of study in astronomy.One of the most intriguing aspects of Proxima Centauri is its potential for hosting exoplanets. In 2016, astronomers announced the discovery of Proxima b, an Earth-sized exoplanet orbiting within the habitable zone of Proxima Centauri, where conditions might be suitable for liquid water to exist on its surface. This discovery has sparked significant interest in the search for habitable worlds beyond our solar system.</p>
+                </div>
+            </div>
  
-
-            <h1 id="stars">Star Names and Constellations</h1>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Star Name</th>
-                <th>Constellation</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sirius</td>
-                <td>Canis Major</td>
-            </tr>
-            <tr>
-                <td>Proxima Centauri</td>
-                <td>Centaurus</td>
-            </tr>
-            <tr>
-                <td>Alpha Centauri</td>
-                <td>Centaurus</td>
-            </tr>
-            <tr>
-                <td>Betelgeuse</td>
-                <td>Orion</td>
-            </tr>
-            <tr>
-                <td>Rigel</td>
-                <td>Orion</td>
-            </tr>
-            <tr>
-                <td>Polaris</td>
-                <td>Ursa Minor</td>
-            </tr>
-            <tr>
-                <td>Vega</td>
-                <td>Lyra</td>
-            </tr>
-            <tr>
-                <td>Altair</td>
-                <td>Aquila</td>
-            </tr>
-        </tbody>
-    </table>
+            <iframe width="320" height="240" src="mov_bbb.mp4" controls muted autoplay> 
+            </iframe>
+            <img src="stars.jpeg" width="320" height="240">
         </main>
         <footer>
-            <p><i><b>My Website.<sup>2024</sup></b> All rights reserved.</i></p>
+            <p><i><b>&copy;Stars.info<sup>2024</sup></b> All rights reserved.</i></p>
         </footer>
 
         

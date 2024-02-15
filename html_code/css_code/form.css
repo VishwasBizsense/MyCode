@@ -49,6 +49,10 @@ nav ul li a:hover {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .form-group {
@@ -104,4 +108,8 @@ textarea {
 .btn-reset {
   background-color: #f44336;
   color: #fff;
+}
+.fixed{
+  position:sticky;
+  top: 0px;
 }

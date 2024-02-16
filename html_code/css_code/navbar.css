@@ -4,40 +4,58 @@ body {
   margin: 0;
   padding: 0;
 }
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo img {
-  height: auto;
-  max-width: 50px;
-  padding: 20px;
-  border-radius: 100%;
-}
-nav ul {
+ul{
   list-style-type: none;
-  padding: 0;
+  margin:0;
+  padding:0;
+  width:200px;
+  background-color: aqua;
+  border:2px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto;
+}
+ul {
+  border: 1px solid #555;
 }
 
-nav ul li {
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  float: left;
   display: inline;
-  margin-right: 20px;
 }
 
-nav ul li a {
-  color: #fff;
+li:last-child {
+  border-bottom: none;
+}
+li a {
+  display:block;
+  color: black;
+  padding: 8px 16px;
   text-decoration: none;
 }
-
-nav ul li a:hover {
-  color: #ebcbae;
+li a:link{
+  color: orange;
+}
+li a:visited{
+  color: gold;
+}
+li a:hover{
+  color: pink;
+  background-color: aquamarine;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+li a:active{
+  color:hotpink;
+  background-color: cadetblue;
 }

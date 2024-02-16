@@ -4,8 +4,8 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-position:relative;
-background:black url(https://static.toiimg.com/photo/103807110.cms) no-repeat ;
+  position:relative;
+  background:black url(https://static.toiimg.com/photo/103807110.cms) no-repeat ;
     background-attachment: fixed;
     background-position: 45vmin;
 }
@@ -19,6 +19,11 @@ background:black url(https://static.toiimg.com/photo/103807110.cms) no-repeat ;
 .sun h3{
   color: cyan;
 }
+.sun:hover{
+  background-color: lightgray;
+  border: 4px solid cyan;
+}
+
 .pic img{
   width:300px;
   height:200px;
@@ -32,9 +37,10 @@ background:black url(https://static.toiimg.com/photo/103807110.cms) no-repeat ;
 #stars{
   text-align: center;
   opacity: 0.5;
+  color: aqua;
 }
 header {
-  background-color: #333;
+  background-image: linear-gradient(to right,rgba(255, 255, 0, 0.5),#eeaeca,#94bbe9);
   color: #fff;
   padding: 20px;
   text-align: center;

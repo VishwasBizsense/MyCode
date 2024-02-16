@@ -1,25 +1,22 @@
-
 body {
   font-family: Arial, sans-serif;
   background-color: white;
   margin: 0;
   padding: 0;
-  background-color:bisque;
+  background-color: bisque;
 }
 
 header {
-  background-color: #333;
+  background-image: linear-gradient(to right,rgba(255, 255, 0, 0.5),#eeaeca,#94bbe9);
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-family:'Courier New';
-  border:5px solid cyan;
-
+  font-family: "Courier New";
+  border: 5px solid cyan;
 }
-.fixed{
-  position:sticky;
+.fixed {
+  position: sticky;
   top: 0px;
-  
 }
 .container {
   display: flex;
@@ -52,52 +49,51 @@ nav ul li a:link {
 }
 
 nav ul li a:visited {
-  color:hotpink;
+  color: hotpink;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color:cyan;
+  color: cyan;
   text-decoration: underline;
 }
 
 nav ul li a:active {
-  color:gold;
+  color: gold;
   text-decoration: underline;
 }
 
-.same{
-  border:4px solid;
-  margin:50px 30px;
-  padding:10px;
+.same {
+  border: 4px solid;
+  margin: 50px 30px;
+  padding: 10px;
 }
-.red{
-  border:2px solid red;
-
+.red {
+  border: 2px solid red;
 }
-.red h2{
+.red h2 {
   text-decoration-line: underline;
   text-decoration-thickness: 5px;
 }
-.red p{
+.red p {
   text-decoration-line: underline;
   text-decoration-color: red;
   text-decoration-style: wavy;
   text-decoration-thickness: 5px;
   -moz-text-decoration-style: wavy;
-  letter-spacing:2px;
+  letter-spacing: 2px;
 }
-.red a{
+.red a {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-thickness: 5px;
   letter-spacing: -2px;
 }
-.yellow{
-  border:2px solid yellow;
+.yellow {
+  border: 2px solid yellow;
 }
-.blue{
-  border:2px solid blue;
+.blue {
+  border: 2px solid blue;
 }
 .table-container {
   height: 100px; /* Adjust the height as needed */
@@ -107,7 +103,8 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
-th, td {
+th,
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
@@ -119,10 +116,187 @@ th {
   position: fixed;
   top: 0px;
   z-index: 1;
-  height:200px;
-  left:200px;
+  height: 200px;
+  left: 200px;
 }
-.overflow,.same{
+.overflow,
+.same {
   height: 300px;
   overflow: auto;
+}
+.zindex img:hover {
+  z-index: -1;
+}
+.zindex img:active {
+  height: 400px;
+}
+/* --------------Counter Implementation--------------*/
+#counter {
+  counter-reset: section;
+}
+#counter h2 {
+  counter-reset: subsection;
+}
+#counter h2::before {
+  counter-increment: section;
+  content: "H1 counter: " counter(section) " ";
+}
+#counter h3::before {
+  counter-increment: subsection;
+  content: "H3 counter: " counter(subsection) " ";
+}
+
+#box {
+  box-sizing: border-box;
+}
+
+#box {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  border: 10px solid black;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-image: url(multimedia/border.png) 30 stretch;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: cyan;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.18%;
+  height: 300px;
+  border-left: 2px solid blue;
+}
+.column:first-child {
+  border-left: none;
+}
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.cent{
+  height:500px;
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+
+  justify-content: center;
+align-items: center;
+}
+.transform {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  /*Centerhorizontally*/align-items: center;
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to right,rgba(255, 255, 0, 0.5),#eeaeca,#94bbe9);
+  transition: 2s, height 2s, transform 1s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: 2s, height 2s, transform 1s;
+  -moz-transition: 2s, height 2s, transform 1s;
+  -ms-transition: 2s, height 2s, transform 1s;
+  -o-transition: 2s, height 2s, transform 1s;
+}
+
+.transform:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width:200px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+.images{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.images img{
+  width:350px;
+  height:200px;
+}
+.images img:first-child{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.img1{
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  background-image:linear-gradient(to right,#eeaeca,#94bbe9);
+}
+
+.img1:hover {
+  box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
+}
+.centered{
+position: relative;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  padding:10px;
+  background-image:linear-gradient(to right,rgba(255, 0, 0, 0.712),violet); ;
+}
+.centered img{
+  width: 80%;
+  height: auto;
+  opacity: 0.3;
+  margin:20% 10%;
 }

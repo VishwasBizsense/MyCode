@@ -2,8 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-}header {
+  background-image:linear-gradient(to right,#eeaeca,#94bbe9);
+}
+header {
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -36,6 +37,18 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+nav ul li a {
+  transition: text-shadow 0.5 ease;
+  -webkit-transition: text-shadow 0.5 ease;
+  -moz-transition: text-shadow 0.5 ease;
+  -ms-transition: text-shadow 0.5 ease;
+  -o-transition: text-shadow 0.5 ease;
+}
+
+/* Define the hover effect */
+nav ul li a:hover {
+  text-shadow: 0 0 5px rgb(255, 0, 255); /* Blue text shadow */
+}
 
 nav ul li a:hover {
   color: #ebcbae;
@@ -53,8 +66,11 @@ nav ul li a:hover {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  transition: box-shadow 0.3s ease;
 }
-
+.container1:hover {
+  box-shadow: 0 0 10px 3px cyan; /* Blue box shadow */
+}
 .form-group {
   margin-bottom: 20px;
 }
@@ -112,4 +128,40 @@ textarea {
 .fixed{
   position:sticky;
   top: 0px;
+}
+.road {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Styles for the tire */
+.tire {
+  width: 150px;
+  height: 150px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAYFBMVEUAAAD///8kJCT8/Pz19fWfn5+Hh4fo6OiysrJmZmbOzs7s7Ozk5OSQkJA2Nja5ublSUlJ1dXXHx8cVFRUqKipYWFgcHBxHR0cNDQ1vb2+WlpaqqqrBwcE/Pz8wMDDV1dUAxo3CAAAElklEQVRogbVa6ZqqMAwtq1oWYVBUUHz/t7x0TdKigtfmz3x02kOaniyksmiFpOU9yw+X+MrYNb4c8uxepmvWsY8zeNV0zJOuqfh/gie89XFBbn/J1+C7IX4HLSQedl+Bl2+VRuqXm8F3K6GFtK+0fwFerYcWMmwA56dt2LPtF6mzBJ5vhRaSrwIvXql9jevHoxaetCin4jM4X1rYtxkvC+mVaVHyrO2XZnmmccH3/ppm9HWKin3jz9y/B8/c+XH20kt2mWfA7B344Eyuj+TfySxk4Fg7CygnCbijdwfb3P0Nt3Pdd11fn2/DH+xm7wQ1ojsGd+zdGi3LylWQ1ZVx+sRx5f0yOOVJr88+HT1kjT/qmM4pdfgSeEGmNHrl8IrWs1y1hVNKnGIBnBx9vmgoX7QRiE+ffHDyf3UsxfkTNmNnpSehQu6CE4OPcuhOYa6T+usmkLucPOIh7oDjJUpvEnWb4VmkGqzgAzFy5ekeU3CMpHZ1g4Euk3sv1ZP0q2JA/L55dq0w+A4rKUcOAD1qPZ7q2RB5BPiDHMDb2SFw5Ah9SvXOrcP/YaPNkoCuUvcU8b0F8BK9kxMr9U/Lq+iohlD4eFq4yiVFacGRfVvCkwYXVntiTyngPnfHAK0BRxbvhBGsrx4iLBnesRF7NuLME3TKhQZHgVae1nkR20xzRg36GW3OWG8GT4DjNZ7RUBRzEGdn2FhG6gVBLk4kODoHyWFjIbeQvS2/82kWi4cjYHEJDscQo93P27hTlDPanZUC+ChpBFZoJTi8TFA4RTGWwuv9n9BQij37KraKooAAR1YRfkUiEIGv0fakJE7RJ1wZMY/P4DCjoUfiwusdm7NI3WyuDAZBYJjB4Um8uXRXMPaQ8ONknicZbJZSlHBLYGMTsRSIL3iv99E+8KLpXpINPUpaJ+R6E8J5IVt2KQNVe2SV1CthXkvHDaK0C4SvkkG+aeE8hPXLyzrsHNFUMAKYfWewQUFEEla92m5BdGGup/6RVRkDJ+DgQTrQFrRmiKvjsaIp1ORi7abCj4DaOYOUI85aufjVlh57Hwils8lG+0Jx50b4dmDWshJR2W5C7m1fbguG3BuZRRFVBLXC0u8ClUKcWrJc0KroqI4fHFPzYXriWYq6gi6pra5iZn2hnmNkotbRkK10RwmoejmpTyLk48jNHpFNJTTZKKVQpb6380EUAWUiI/73JfhlBXhQswQ90KBUDOpEQd0/aOBaDLnCdr8Iub9MFg/gkpByVZo7fZvmViRo6Zyjpe9pfYL+VFpM1u+/KS2CFkVbyzkUB2g51y2Ucy8L0ekXhejGEvriDL8voVHxLyPWT4v/oJ8tYT64dhrc+8T75adi2I/coJ/npAX1k8ZCgcBJgP1BS0SbbnUzh29o5pgPvvVtKPZ9GypoAy1s68+UHlps03LhAsrIhqZl0HbrpkbxY2uj+H2LO/vPFrffnJ9+2Jzfeq3gXd29vVYIeyES9ion7CVUFPT6TJjm4yWrK+sv/iKfkx9ky5VltPGydYFNb8GDXhMLKcJdcAv5dDXPv7+aVzJnzDA/KtDy7c8h/gF4yUb3Co/A4wAAAABJRU5ErkJggg==); /* Path to your tire image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: -150px; /* Start position outside the road */
+  animation: moveTire 4s linear forwards;
+  animation-play-state: paused; /* Animation initially paused */
+}
+
+/* Animation for moving the tire */
+@keyframes moveTire {
+  from {
+    left: -150px; /* Start position outside the road */
+  }
+  to {
+    left: calc(100% + 150px); /* End position outside the road */
+  }
+}
+
+/* Animation triggered when button is clicked */
+.submitBtn:checked ~ .road .tire {
+  animation-play-state: running; /* Resume animation when button is checked */
 }

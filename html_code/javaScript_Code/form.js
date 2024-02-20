@@ -2,7 +2,7 @@ document.querySelector('.submitBtn').addEventListener('click', function() {
   var formData = {};
   var isValid = true;
 
-  // ----Validate name--------
+  // ----Validate name-----------------------
   var name = document.getElementById('name').value.trim();
   var nameError = document.getElementById('nameError');
   if (name === '') {

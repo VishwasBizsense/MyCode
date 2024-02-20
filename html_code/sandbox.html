@@ -180,10 +180,107 @@
 
       <h3>An image with a mask layer image:</h3>
 <div class="mask1">
-<img src="Multimedia/star.jpg" alt="" width="600" height="400">
+<img src="Multimedia/icegif-352.gif" alt="" width="600" height="400">
+</div>
+
+<div id="getElement"></div>
+<!-- bulb -->
+<div class="backbox">
+  <button onclick="on()">Turn on the light</button>
+
+  <img id="myImage" src="/html_code/Multimedia/pic_bulboff.gif" style="width:100px">
+  
+  <button onclick="off()">Turn off the light</button>
+</div>
+
+<!-- Text from textbox to a div element ----------------->
+
+<div class="print">
+  <textarea class="myTextarea" rows="4" cols="50" placeholder="Enter Text to display it on the right div."></textarea>
+  <button onclick="edit()">= Display ==></button>
+  <div class="displayDiv"></div>
+</div>
+
+<!-- Change title of the page using js ---------------->
+<div class="print"><input type="text" id="titleInput" placeholder="Enter new title">
+  <button onclick="changeTitle()">Change Title</button></div>
+
+<!-- Html Event handler attribute--------------->
+<div class="print">
+  <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+  <button onclick="displayDate()">The time is?</button>
+  <button onkeydown="emptyP()">Empty box</button>
+  <p id="demo"></p>
+</div>
+<div class="strings">
+  <h2 style="color: aqua;">String Methods :</h2>
+  <button onclick="getStringLength()">String length</button>
+  <button onclick="getCharAt()">String charAt()</button>
+  <button onclick="getCharCodeAt()">String charCodeAt()</button>
+  <button onclick="getAt()">String at()</button>
+  <button onclick="getBracket()">String []</button>
+  <button onclick="getSlice()">String slice()</button>
+  <button onclick="getSubstring()">String substring()</button>
+  <button onclick="getSubstr()">String substr()</button>
+  <button onclick="getToUpperCase()">String toUpperCase()</button>
+  <button onclick="getToLowerCase()">String toLowerCase()</button>
+  <button onclick="getConcat()">String concat()</button>
+  <button onclick="getTrim()">String trim()</button>
+  <button onclick="getTrimStart()">String trimStart()</button>
+  <button onclick="getTrimEnd()">String trimEnd()</button>
+  <button onclick="getPadStart()">String padStart()</button>
+  <button onclick="getPadEnd()">String padEnd()</button>
+  <button onclick="getRepeat()">String repeat()</button>
+  <button onclick="getReplace()">String replace()</button>
+  <!-- The method replaceAll() requires ES2021 or later, which is not universally supported -->
+  <button onclick="getReplaceAll()">String replaceAll()</button>
+  <button onclick="getSplit()">String split()</button>
+  <button onclick="emptyOutput()">Empty Output</button>
+  <!-- Div to display the output -->
+  <div id="output">Red, Yellow, Green<br></div>
+  <button onclick="emptyOutput()">Empty Output</button>
+</div>
+<div class="search">
+  <h2 style="color: aqua;">String Search/Match :</h2>
+  <button onclick="stringIndexOf()">String indexOf()</button>
+  <button onclick="stringLastIndexOf()">String lastIndexOf()</button>
+  <button onclick="stringSearch()">String search()</button>
+  <button onclick="stringMatch()">String match()</button>
+  <button onclick="stringMatchAll()">String matchAll()</button>
+  <button onclick="stringIncludes()">String includes()</button>
+  <button onclick="stringStartsWith()">String startsWith()</button>
+  <button onclick="stringEndsWith()">String endsWith()</button>
+  <div id="output1">Hello, World<br></div>
+  
+  <!-- Button to empty the output div -->
+  <button onclick="emptyOutput1()">Empty Output</button>
+</div>
+<div class="arrays">
+  <button onclick="arrayLength()">Array length</button>
+  <button onclick="arrayToString()">Array toString()</button>
+  <button onclick="arrayAt()">Array at()</button>
+  <button onclick="arrayJoin()">Array join()</button>
+  <button onclick="arrayPop()">Array pop()</button>
+  <button onclick="arrayPush()">Array push()</button>
+  <button onclick="arrayShift()">Array shift()</button>
+  <button onclick="arrayUnshift()">Array unshift()</button>
+  <!-- <button onclick="arrayDelete()">Array delete()</button> -->
+  <button onclick="arrayConcat1()">Array concat()</button>
+  <button onclick="arrayCopyWithin()">Array copyWithin()</button>
+  <button onclick="arrayFlat()">Array flat()</button>
+  <button onclick="arraySplice()">Array splice()</button>
+  <button onclick="arrayToSpliced()">Array toSpliced()</button>
+  <button onclick="arraySlice()">Array slice()</button>
+  
+  <div id="output2">[1, 2, 3, 4, 5]<br></div>
+  
+  <!-- Button to empty the output div -->
+  <button onclick="emptyOutput2()">Empty Output</button>
 </div>
     </main>
 
-    <script src="" async defer></script>
+    <script src="JavaScript_Code/sandbox.js" async defer></script>
+    <script src="JavaScript_Code/string.js" async defer></script>
+  
   </body>
 </html>

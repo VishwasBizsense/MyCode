@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
     <link rel="stylesheet" href="css_code/form.css">
+    
     <link rel="icon" type="image/x-icon" href="multimedia/tracking.png">
 </head>
 <body>    
@@ -36,34 +37,39 @@
 </div>
 <div class="container1">
     <h2>Feedback Form</h2>
-    <form action="#" method="post">
+    <form id="feedbackForm" action="#" method="post">
         <div class="form-group">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required autofocus autocomplete="on">
+            <input type="text" id="name" name="name" autofocus>
+            <span id="nameError" class="error-message"></span>
         </div>
         <div class="form-group">
-            <label for="gender">Gender:</label>
-            <input type="radio" id="male" name="gender" value="male" required>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label>
             <input type="radio" id="other" name="gender" value="other">
             <label for="other">Other</label>
+            <span id="genderError" class="error-message"></span>
         </div>
         <div class="form-group">
             <label for="feedback">Feedback:</label>
-            <textarea id="feedback" name="feedback" required></textarea>
+            <textarea id="feedback" name="feedback"></textarea>
+            <span id="feedbackError" class="error-message"></span>
         </div>
         <div class="form-group">
             <label for="favorite-star">Favorite Star:</label>
             <select id="favorite-star" name="favorite-star">
+                <option value="">Select a star</option>
                 <option value="sun">Sun</option>
                 <option value="sirius">Sirius</option>
                 <option value="proxima-centauri">Proxima Centauri</option>
                 <option value="alpha-centauri">Alpha Centauri</option>
                 <option value="Stephenson 218">Stephenson 218</option>
                 <option value="Betelgeuse">Betelgeuse</option>
-              </select>
+            </select>
+            <span id="favoriteStarError" class="error-message"></span>
         </div>
         <div class="form-group"> 
             <label for="Website" >Website Feedback: </label>
@@ -75,21 +81,30 @@
               <option value="Can be improved">
               <option value="Best">
             </datalist>
+            <span id="websiteFeedbackError" class="error-message"></span>
         </div>
         <label for="phone">Enter your phone number:</label>
-        <input type="tel" class="form-group" name="phone"
+        <input type="tel" id="phone" name="phone"
         placeholder="123-45-678"
-        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <span id="phoneError" class="error-message"></span>
         <div class="btn-group">
-            <button type="submit" class="btn btn-submit submitBtn">Submit</button>
+            <button type="button" class="btn btn-submit submitBtn">Submit</button>
             <button type="reset" class="btn btn-reset">Reset</button>
         </div>
-
+        <div class="keysList">
+            <ul>
+                <li class="name"></li>
+                <li class="phone"></li>
+                <li class="favoriteStar"></li>
+                <li class="feedback"></li>
+                <li class="websiteFeedback"></li>
+                <li class="gender"></li>
+            </ul>
+        </div>
     </form>
-    <div class="road">
-        <div class="tire"></div>
-    </div>
 </div>
 
+<script src="JavaScript_Code/form.js" async defer></script>
 </body>
 </html>

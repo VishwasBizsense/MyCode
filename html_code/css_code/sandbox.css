@@ -160,7 +160,7 @@ th {
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
-  border-image: url(multimedia/border.png) 30 stretch;
+  border-image: url(../multimedia/border.png) 30 stretch;
 }
 
 /* Style the top navigation bar */
@@ -310,8 +310,107 @@ margin: 50px 45%;
   object-position: 50% 100%;
 }
 .mask1 {
-  -webkit-mask-image: url(Multimedia/w3logo.png);
-  mask-image: url(Multimedia/w3logo.png);
+  -webkit-mask-image: url(../Multimedia/w3logo.png);
+  mask-image: url(../Multimedia/w3logo.png);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+}
+.mask1 img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+#getElement{
+  font-size: larger;
+  padding: 15px 18px;
+  border: 3px solid greenyellow;
+  background-image: linear-gradient(to right,#eeaeca,#94bbe9);
+  text-align: center;
+  color: hotpink;
+  text-shadow:1px 1px dodgerblue;
+}
+#getElement:hover{
+  color: black;
+  background-image: none;
+}
+
+.backbox{
+  display:flex;
+  padding: 8px;
+  border: 3px solid cyan;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  background-color: black;
+}
+.backbox button{
+  padding: 8px 6px;
+  height: 40px;
+  background-image:  linear-gradient(to right,#eeaeca,#94bbe9);
+  border:2px solid #94bbe9;
+  border-radius: 8px;
+}
+.print{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  background-color: black;
+  border:4px solid cyan;
+}
+.displayDiv{
+  margin-left:5%;
+  border:3px solid #94bbe9;
+  height:65px;
+  width:300px;
+  background-color: white;
+}
+.print button{
+  background-image: linear-gradient(to right,#eeaeca,#94bbe9);
+  margin-left: 50px;
+}
+.print button:active{
+color: white;
+background-color: #eeaeca;
+background-image: none;
+}
+.myTextarea{
+  border:3px solid #94bbe9;
+}
+#demo{
+  background-color: white;
+  border: 3px solid cyan;
+  padding:8px;
+}
+
+.strings button,.search button,.arrays button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.strings button:hover,.search button:hover,.arrays button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for output div */
+.strings #output,.search #output1 ,.arrays #output2{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color:black;
+
+}
+.strings,.strings #output,.search,.search #output1,.arrays,.arrays #output2{
+  background-color: black;
+  border:4px solid cyan;
+  color:white;
+  max-height: 100%;
 }

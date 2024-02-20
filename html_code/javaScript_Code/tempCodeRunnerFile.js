@@ -1,0 +1,1 @@
+console.log(text.match(/ain/gi));

@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(to right,rgba(255, 255, 0, 0.5),#eeaeca,#94bbe9);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Courier New";
+  border: 5px solid cyan;
+}
+.fixed {
+  position: sticky;
+  top: 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: auto;
+  max-width: 50px;
+  padding: 20px;
+  border-radius: 100%;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:link {
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: hotpink;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+nav ul li a:active {
+  color: gold;
+  text-decoration: underline;
+}
+.strings button,.search button,.arrays button,.sorting button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.strings button:hover,.search button:hover,.arrays button:hover ,.sorting button:hover{
+  background-color: #0056b3;
+}
+
+/* Style for output div */
+.strings #output,.search #output1 ,.arrays #output2,#array-output,#method-output,#array-method-output{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color:black;
+
+}
+.strings,.strings #output,.search,.search #output1,.arrays,.arrays #output2,.sorting ,#array-output,#method-output,#array-method-output{
+  background-color: black;
+  border:4px solid cyan;
+  color:white;
+  max-height: 100%;
+}

@@ -383,34 +383,3 @@ background-image: none;
   padding:8px;
 }
 
-.strings button,.search button,.arrays button {
-  padding: 10px 20px;
-  margin: 5px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.strings button:hover,.search button:hover,.arrays button:hover {
-  background-color: #0056b3;
-}
-
-/* Style for output div */
-.strings #output,.search #output1 ,.arrays #output2{
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  color:black;
-
-}
-.strings,.strings #output,.search,.search #output1,.arrays,.arrays #output2{
-  background-color: black;
-  border:4px solid cyan;
-  color:white;
-  max-height: 100%;
-}

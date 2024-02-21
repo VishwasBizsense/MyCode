@@ -85,7 +85,7 @@ function emptyOutput() {
   outputDiv.innerText = "Red, Yellow, Green";
 }
 
-//For string searcing and matching--------------------
+//For string searching and matching--------------------
 let str = "Hello, World";
 
 // Output div

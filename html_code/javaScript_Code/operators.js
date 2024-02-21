@@ -67,7 +67,7 @@
 // foo();
 // console.log("Outside foo",xt);//undefined
 
-// //------------------logical operator------------
+////------------------logical operator------------
 // {
 //   let x=0,y=1;
 // console.log("logical OR " + x||y);
@@ -117,12 +117,53 @@
 // const date = new Date("2022-03-25");
 // }
 
-let str = "The rain in SPAIN stays mainly in the plain";
-// console.log(str.match(/ain/gi));
-// console.log([...str.matchAll(/ain/gi)]);
-let matches = str.matchAll(/ain/gi);
-let matchResult = '';
-for (let match of matches) {
-  matchResult += `${match} at index: ${match.index}\n` ;
-}
-console.log(matchResult);
+// let str = "The rain in SPAIN stays mainly in the plain";
+// // console.log(str.match(/ain/gi));
+// // console.log([...str.matchAll(/ain/gi)]);
+// let matches = str.matchAll(/ain/gi);
+// let matchResult = '';
+// for (let match of matches) {
+//   matchResult += `${match} at index: ${match.index}\n` ;
+// }
+// console.log(matchResult);
+// console.log(arr.lastIndexOf(6,6));
+// console.log(arr.includes(2));
+// let find=arr.findIndex(element=> element>5)
+// console.log(find);
+// console.log(arr.findLast(element=>element<6));
+// console.log(arr.sort((a,b)=>a-b));
+// console.log(Math.min(...arr));
+// arr.forEach((ele)=>console.log(2*ele))
+// let map=arr.map((ele)=>ele*2)
+
+// console.log(arr);
+// console.log(map);
+
+// let arr=[23,41,6,2,43,54,64,7,9,9];
+// let map=arr.map(ele => [ele*2])
+// console.log(map);
+// let flat_map = arr.flatMap(ele => [ele*2]);
+// console.log(flat_map);
+// let filter = arr.filter(ele => ele>41);
+// let from = Array.from("abcdef");
+// console.log(filter);
+// console.log(from);
+// let x=arr.with(2,"123")
+// console.log(x);
+let d=new Date();
+console.log(d.getMonth+1);
+const date=new Date("2024-02-21");
+console.log(date);
+
+console.log(typeof "John" ,                // Returns "string"
+typeof 3.14          ,         // Returns "number"
+typeof NaN            ,        // Returns "number"
+typeof false        ,          // Returns "boolean"
+typeof [1,2,3,4]    ,          // Returns "object"
+typeof {name:'John', age:34} , // Returns "object"
+typeof new Date()       ,      // Returns "object"
+typeof function () {}   ,      // Returns "function"
+typeof myCar           ,       // Returns "undefined" *
+typeof null );                  // Returns "object"
+
+

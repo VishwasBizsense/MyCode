@@ -150,20 +150,70 @@
 // console.log(from);
 // let x=arr.with(2,"123")
 // console.log(x);
-let d=new Date();
-console.log(d.getMonth+1);
-const date=new Date("2024-02-21");
-console.log(date);
+// let d=new Date();
+// console.log(d.getMonth+1);
+// const date=new Date("2024-02-21");
+// console.log(date);
 
-console.log(typeof "John" ,                // Returns "string"
-typeof 3.14          ,         // Returns "number"
-typeof NaN            ,        // Returns "number"
-typeof false        ,          // Returns "boolean"
-typeof [1,2,3,4]    ,          // Returns "object"
-typeof {name:'John', age:34} , // Returns "object"
-typeof new Date()       ,      // Returns "object"
-typeof function () {}   ,      // Returns "function"
-typeof myCar           ,       // Returns "undefined" *
-typeof null );                  // Returns "object"
+// console.log(typeof "John" ,                // Returns "string"
+// typeof 3.14          ,         // Returns "number"
+// typeof NaN            ,        // Returns "number"
+// typeof false        ,          // Returns "boolean"
+// typeof [1,2,3,4]    ,          // Returns "object"
+// typeof {name:'John', age:34} , // Returns "object"
+// typeof new Date()       ,      // Returns "object"
+// typeof function () {}   ,      // Returns "function"
+// typeof myCar           ,       // Returns "undefined" *
+// typeof null );                  // Returns "object"
+
+// myFunction();
+
+// code here can use carName
+// console.log(carName);
+// function myFunction() {
+  
+//   carName = "Volvo";
+// }
+
+// {
+//   console.log(typeof y);
+//   let y=0;
+// }
+
+//*******************This Keyword***********************************
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  age(X) {
+
+    return X - this.year;
+  }
+}
+const date = new Date();
+let year=date.getFullYear();
+let mycar=new Car("volvo",2000);
+console.log(mycar.age(year));
 
 
+//*******************call(),apply()and bind()***********************************
+
+const person = {
+  firstName:"John",
+  lastName: "Doe",
+  display: function (age,month) {
+    console.log(this.firstName + " " + this.lastName,"is",age,"years and", month ,"months old");
+  }
+};
+
+const person1 = {
+  firstName:"Vishwas",
+  lastName: "Gandhi",
+  age:22,
+  month:3
+};
+
+person.display.apply(person1,[22,3]);
+let x=person.display.bind(person1);
+x(22,3);

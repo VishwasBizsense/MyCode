@@ -56,7 +56,7 @@ nav ul li a:hover {
 
 
 .container1 {
-  max-width: 500px;
+  max-width: 1000px;
   margin: 50px auto;
   padding: 20px;
   background-color: #fff;
@@ -107,7 +107,7 @@ textarea {
 .btn-group {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .btn {
@@ -126,11 +126,57 @@ textarea {
   background-color: #f44336;
   color: #fff;
 }
-.fixed{
+/* .fixed{
   position:sticky;
   top: 0px;
-}
+} */
 .error-message {
   color: red;
   font-size: 0.8em;
+}
+.contact{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#searchBar{
+  max-width: 200px;
+}
+.btn-search{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+}
+.form-data{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: #fff;
+}
+.btn-search:active{
+  background-color: #216323;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}
+.table-container{
+  margin-top: 20px;
+}
+.search{
+  margin-top: 50px;
 }

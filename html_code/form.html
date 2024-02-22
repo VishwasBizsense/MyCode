@@ -30,7 +30,7 @@
       </div>
   </header>
   </div>
-<div class="container1">
+<div class="container1 contact">
   <h2>Contact Info</h2>
   <h5>Phone no. :1234567890</h5>
   <h5>Email :xyz@gmail.com</h5>
@@ -53,11 +53,11 @@
             <label for="other">Other</label>
             <span id="genderError" class="error-message"></span>
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label for="feedback">Feedback:</label>
             <textarea id="feedback" name="feedback"></textarea>
             <span id="feedbackError" class="error-message"></span>
-        </div>
+        </div> -->
         <div class="form-group">
             <label for="favorite-star">Favorite Star:</label>
             <select id="favorite-star" name="favorite-star">
@@ -71,7 +71,7 @@
             </select>
             <span id="favoriteStarError" class="error-message"></span>
         </div>
-        <div class="form-group"> 
+        <!-- <div class="form-group"> 
             <label for="Website" >Website Feedback: </label>
             <input list="fb" id="Website" name="fb">
             <datalist id="fb">
@@ -82,17 +82,21 @@
               <option value="Best">
             </datalist>
             <span id="websiteFeedbackError" class="error-message"></span>
-        </div>
+        </div> -->
         <label for="phone">Enter your phone number:</label>
         <input type="tel" id="phone" name="phone"
-        placeholder="123-45-678"
-        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        placeholder="12345-67890"
+        pattern="[0-9]{5}-[0-9]{5}">
         <span id="phoneError" class="error-message"></span>
+        
+        
+        <!---------------------submit and reset buttons--------------->
+        
         <div class="btn-group">
             <button type="button" class="btn btn-submit submitBtn">Submit</button>
-            <button type="reset" class="btn btn-reset">Reset</button>
+            <button type="reset" class="btn btn-reset resetButton">Reset</button>
         </div>
-        <div class="keysList">
+        <!-- <div class="keysList">
             <ul>
                 <li class="name"></li>
                 <li class="phone"></li>
@@ -101,8 +105,31 @@
                 <li class="websiteFeedback"></li>
                 <li class="gender"></li>
             </ul>
-        </div>
+        </div> -->
     </form>
+    <div class="search">
+        <label for="searchBar"></label>
+        <input type="text" name="searchBar" id="searchBar" placeholder="Search by name" size="10">
+        <button type="button" class="btn-search">
+            Search
+        </button>
+        <button class="form-data">Form Data</button>
+    </div>
+    <div class="table-container">
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Favorite Star</th>
+                    <th>Phone no.</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <script src="JavaScript_Code/form.js" async defer></script>

@@ -1,8 +1,78 @@
-const formData = [];
-let duplicateFormData = [];
+const eventListeners = []; // Array to store event listeners
 
+// Function to add event listener and store it in the array
+function addEventListenerAndStore(element, event, listener) {
+  element.addEventListener(event, listener);
+  eventListeners.push({ element, event, listener });
+}
 
-document.querySelector(".submitBtn").addEventListener("click", validateForm);
+// Function to remove all event listeners stored in the array
+function removeAllEventListeners() {
+  eventListeners.forEach(({ element, event, listener }) => {
+    element.removeEventListener(event, listener);
+  });
+  eventListeners.length = 0; // Clear the array
+}
+
+// Add event listeners with the helper function
+addEventListenerAndStore(
+  document.querySelector(".submitBtn"),
+  "click",
+  validateForm
+);
+
+addEventListenerAndStore(
+  document.querySelector("button[type='reset']"),
+  "click",
+  resetError
+);
+
+addEventListenerAndStore(
+  document.querySelector("#searchBar"),
+  "input",
+  function () {
+    let tableBody = document.getElementsByTagName("tbody");
+    tableBody.innerHTML = "";
+    let toSearch = document.getElementById("searchBar").value.toLowerCase();
+    duplicateFormData = duplicateFormData.filter(function (obj) {
+      return obj.name.toLowerCase().includes(toSearch);
+    });
+    displayData(duplicateFormData);
+  }
+);
+
+addEventListenerAndStore(
+  document.querySelector(".form-data"),
+  "click",
+  function () {
+    document.getElementById("searchBar").value = "";
+  }
+);
+
+addEventListenerAndStore(
+  document.querySelector("#name"),
+  "click",
+  removeNameError
+);
+
+addEventListenerAndStore(
+  document.querySelector(".gender-div"),
+  "click",
+  removeGenderError
+);
+
+addEventListenerAndStore(
+  document.querySelector("#favorite-star"),
+  "click",
+  removefavoriteStarError
+);
+
+addEventListenerAndStore(
+  document.querySelector("#phone"),
+  "click",
+  removePhoneError
+);
+
 
 //********************Getting error data********************** */
 let nameError = document.getElementById("nameError");
@@ -45,16 +115,7 @@ function validateForm() {
     genderError.textContent = "";
   }
 
-  //   // Validate feedback--------------------------
-  // let feedback = document.getElementById('feedback').value.trim();
-  // let feedbackError = document.getElementById('feedbackError');
-  //   if (feedback === '') {
-  //     feedbackError.textContent = 'Feedback is required';
-  //     isValid = false;
-  //   } else {
-  //     personData.feedback = feedback;
-  //     feedbackError.textContent = '';
-  //   }
+
 
   // Validate favorite star-----------------------
   if (favoriteStar === "") {
@@ -65,16 +126,7 @@ function validateForm() {
     favoriteStarError.textContent = "";
   }
 
-  // // Validate website feedback-----------------------
-  // let websiteFeedback = document.getElementById('Website').value.trim();
-  // let websiteFeedbackError = document.getElementById('websiteFeedbackError');
-  // if (websiteFeedback === '') {
-  //   websiteFeedbackError.textContent = 'Website feedback is required';
-  //   isValid = false;
-  // } else {
-  //   personData.websiteFeedback = websiteFeedback;
-  //   websiteFeedbackError.textContent = '';
-  // }
+
 
   // Validate phone number-----------------
   if (phone === "") {
@@ -124,11 +176,6 @@ function displayData(data) {
 
 // ******************reset form error***********************
 
-document
-  .querySelector("button[type='reset']")
-  .addEventListener("click", resetError);
-// document.querySelector(".form-group").addEventListener("click", resetError);
-
 function resetError() {
   nameError.textContent = "";
   genderError.textContent = "";
@@ -137,67 +184,8 @@ function resetError() {
   console.log("Reset done");
 }
 
-// document.querySelector("#searchBar").addEventListener('input',function(duplicateFormData){
-//   let toSearch = document.getElementById("searchBar").value.toString.toLowerCase();
-//   console.log(typeof duplicateFormData)
-//   let matchResult=duplicateFormData.filter(function(obj) {
-//     toSearch===obj.name.toLowerCase();
-//     return obj;
-//   })
-//   matchResult.forEach(element => {
-//     displayData(element);
-//   });
-// });
-
-//********************Search function for search by name********************* */
-// let testArray=[
-//   {
-//     name:"Vishwas",
-//     gender:"male",
-//     favoriteStar:"Sirius",
-//     phone:"11111-22222"
-//   },
-//   {
-//     name:"Mia",
-//     gender:"female",
-//     favoriteStar:"Sirius",
-//     phone:"11111-22222"
-//   },
-//   {
-//     name:"Yogesh",
-//     gender:"male",
-//     favoriteStar:"Sirius",
-//     phone:"11111-22222"
-//   }
-// ];
-document.querySelector("#searchBar").addEventListener("input", function () {
-  let tableBody = document.getElementsByTagName("tbody");
-
-  tableBody.innerHTML = "";
-
-  let toSearch = document.getElementById("searchBar").value.toLowerCase();
-  // console.log(typeof toSearch);
-  
-  duplicateFormData = duplicateFormData.filter(function (obj) {
-    return obj.name.toLowerCase().includes(toSearch);
-  });
-
-  displayData(duplicateFormData);
-});
-
-document.querySelector(".form-data").addEventListener("click",function(){
-  document.getElementById("searchBar").value="";
-});
-
-
-
 //**********************Individual error message events */
 
-
-document.querySelector("#name").addEventListener("click",removeNameError);
-document.querySelector(".gender-div").addEventListener("click",removeGenderError);
-document.querySelector("#favorite-star").addEventListener("click",removefavoriteStarError);
-document.querySelector("#phone").addEventListener("click",removePhoneError);
 function removeNameError(){
   nameError.textContent = "";
 }
@@ -210,3 +198,4 @@ function removeGenderError(){
 function removePhoneError(){
   phoneError.textContent = "";
 }
+

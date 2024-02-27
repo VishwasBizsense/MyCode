@@ -1,0 +1,48 @@
+/* styles.css */
+/* General styles */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Deck component */
+.Deck {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Fruits component */
+.Fruits {
+  margin-top: 20px;
+}
+
+/* ConditionalFilter component */
+.ConditionalFilter {
+  margin-top: 20px;
+}
+
+/* Message component */
+.Message {
+  margin-top: 20px;
+}
+
+/* Profile component */
+.Profile {
+  margin-top: 20px;
+}
+
+/* Counter component */
+.Counter {
+  margin-top: 20px;
+}
+
+/* Gallery component */
+.Gallery {
+  margin-top: 20px;
+}
+
+/* Form component */
+.Form {
+  margin-top: 20px;
+}

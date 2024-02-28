@@ -7,6 +7,8 @@ import Counter from "./components/Counter"
 import Gallery from "./components/Gallery";
 import Form from "./components/form";
 import './App.css';
+import ShoppingCart from "./components/ShoppingCart";
+import Shopping from "./components/Shopping";
 function App() {
   const myDeck = ["Pekka", "Wall-Breakers", "Bandit", "Ghost", "Zap"];
   let condition = true;
@@ -20,6 +22,7 @@ function App() {
       <Counter />
       <Gallery />
       <Form />
+      <Shopping />
     </div>
   );
 }

@@ -1,8 +1,7 @@
 import { useState } from "react";
 
 export default function Form() {
-  const person = {firstName : "" , lastName : "",}
-  const [name, setname] = useState(person);
+  const [formData, setName] = useState({ firstName: "", lastName: "" });
 
   // function handleChange(e) {
   //   setname(e.target.value);
@@ -10,27 +9,25 @@ export default function Form() {
 
   return (
     <div>
+      
       <form>
         <input
           type="text"
           placeholder="FirstName"
-          value={name.firstName}
+          value={formData.firstName}
           onChange={(e) => {
-            setname({...person,firstName:e.target.value});
-          }
-          
-        }
+            setName({ ...formData, firstName: e.target.value });
+          }}
         ></input>
         <input
           type="text"
           placeholder="LastName"
-          value={name.lastName}
+          value={formData.lastName}
           onChange={(e) => {
-            setname({...person,lastName:e.target.value});
-          }
-          
-        }
-        ></input>
+            setName({ ...formData, lastName: e.target.value });
+          }}
+        />
+        <button onClick={(e) =>{ e.preventDefault();console.log(formData);}}>Submit</button>
       </form>
     </div>
   );

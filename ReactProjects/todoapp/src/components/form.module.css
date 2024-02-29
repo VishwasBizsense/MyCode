@@ -1,10 +1,5 @@
 .todoForm {
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 0, 0.5),
-    #eeaeca,
-    #94bbe9
-  );
+  background-color: white;
   border-radius: 8px;
   padding: 20px;
   width: 500px;
@@ -25,22 +20,20 @@
 .modernButton {
   display: inline-block;
   border: none;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  padding: 12px 13px;
-background-color: rgb(223, 223, 46);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 12px 20px;
+  background-color: rgb(223, 223, 46);
   color: white;
   cursor: pointer;
+  font-size: 1.3em;
 }
-.modernButton:hover{
-  background-image: linear-gradient(
-    to right,
-    #94bbe9
-  );
+.modernButton:hover {
+  background-color: yellow;
 }
-.inputContainer{
+.inputContainer {
   display: flex;
 }

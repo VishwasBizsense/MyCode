@@ -1,0 +1,46 @@
+.item {
+  width: 500px;
+  color: rgb(73, 73, 73);
+  font-size: 20px;
+  margin: 5px auto;
+}
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 2px solid rgb(204, 203, 203);
+}
+/* .line {
+  border: 1px solid rgb(226, 224, 224);
+} */
+.deleteButton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  margin: -6px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: rgb(221, 221, 33);
+  color: white;
+}
+.deleteButton:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+.completed {
+  color: white;
+  background-color: rgb(37, 35, 35);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 4px 8px;
+}

@@ -2,11 +2,15 @@ import { useState } from "react";
 import styles from "./form.module.css";
 // import PropTypes from 'prop-types';
 export default function Form({ todos, setTodos }) {
-  const [todo, setTodo] = useState("");
+  // const [todo, setTodo] = useState("");
+  const [todo, setTodo] = useState({ name: "", done: false });
 
   function handleSubmit(e) {
     e.preventDefault();
-    setTodos([...todos, todo]);
+    if (todo.name.trim() !== "") {
+      setTodos([...todos, todo]);
+      setTodo({ name: "", done: false });
+    }
   }
 
   return (
@@ -15,12 +19,12 @@ export default function Form({ todos, setTodos }) {
         <input
           className={styles.modernInput}
           type="text"
-          value={todo}
+          value={todo.name}
           placeholder="Enter todo item ..."
-          onChange={(e) => setTodo(e.target.value)}
+          onChange={(e) => setTodo({ name: e.target.value, done: false })}
         />
         <button className={styles.modernButton} type="submit">
-          Add
+          +
         </button>
       </div>
     </form>

@@ -13,6 +13,7 @@ export default function Shopping() {
   };
   const removeItemFromCart = (index) => {
     setCartItem(cartItem.toSpliced(index, 1));
+    // setCartItem(cartItem.filter((item, idx) => idx !== index));
   };
 
   return (

@@ -8,6 +8,11 @@ import Scrolled from "./components/Scrolled";
 import Tick from "./components/Tick";
 import FetchData from "./components/FetchData";
 import ComponentFrom from "./components/UseContextHook/ComponentFrom";
+import CounterReducer from "./components/UseReducerHook/CounterReducer";
+import ObjectCounterReducer from "./components/UseReducerHook/ObjectCounterReducer";
+import ReducerContextProvider from "./components/UseReducerHook/ReducerContextProvider";
+import FetchingUseState from "./components/UseReducerHook/FetchingUseState";
+import FetchingUseReducer from "./components/UseReducerHook/FetchingUseReducer";
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
@@ -25,11 +30,27 @@ function App() {
       {/* <Scrolled /> */}
       {/* <Tick /> */}
       {/* <FetchData /> */}
+
+      {/* --------------Context and useContext hooks----------------------------- */}
+      {/* 
       <UserContext.Provider value={"Vishwas"}>
         <AgeContext.Provider value={22}>
           <ComponentFrom />
         </AgeContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      {/* ----------------Reducer functions and UseReducer hooks --------------------*/}
+
+      {/* <CounterReducer /> */}
+      {/* <ObjectCounterReducer /> */}
+
+      {/* -----------Reducer with context------------------------------- */}
+
+      {/* <ReducerContextProvider /> */}
+
+      {/*-------------------- Fetching data using useReducer------------------------ */}
+      {/* <FetchingUseState /> */}
+      <FetchingUseReducer />
     </div>
   );
 }

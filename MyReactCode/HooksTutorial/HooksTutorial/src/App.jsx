@@ -13,6 +13,13 @@ import ObjectCounterReducer from "./components/UseReducerHook/ObjectCounterReduc
 import ReducerContextProvider from "./components/UseReducerHook/ReducerContextProvider";
 import FetchingUseState from "./components/UseReducerHook/FetchingUseState";
 import FetchingUseReducer from "./components/UseReducerHook/FetchingUseReducer";
+import ParentComponent from "./components/Callback&Memo/ParentComponent";
+import UseMemoCounter from "./components/Callback&Memo/UseMemoCounter";
+import FocusInput from "./components/UseRefHook/FocusInput";
+import HookTimer from "./components/UseRefHook/HookTimer";
+import DocTitle from "./components/CustomHooks/DocTitle";
+import CustomCounter from "./components/CustomHooks/CustomCounter";
+import CustomRandomNumber from "./components/CustomHooks/CustomRandomNumber";
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
@@ -50,7 +57,18 @@ function App() {
 
       {/*-------------------- Fetching data using useReducer------------------------ */}
       {/* <FetchingUseState /> */}
-      <FetchingUseReducer />
+      {/* <FetchingUseReducer /> */}
+
+      {/* ------------------react.memo------------------------- */}
+      {/* <ParentComponent /> */}
+      {/* <UseMemoCounter /> */}
+      {/* -----------------USeRef hook------------------------ */}
+      {/* <FocusInput /> */}
+      {/* <HookTimer /> */}
+      {/* -----------------------------------Custom Hooks-------------------- */}
+      {/* <DocTitle /> */}
+      {/* <CustomCounter /> */}
+      <CustomRandomNumber />
     </div>
   );
 }

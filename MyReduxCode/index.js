@@ -1,14 +1,10 @@
-const redux = require("redux");
-//creating a store
-const createStore = redux.createStore;
-const combineReducers = redux.combineReducers;
-
-const reduxLogger = require("redux-logger");
-const applyMiddleware = redux.applyMiddleware;
+import { createStore, combineReducers, applyMiddleware } from "redux";
+import reduxLogger from "redux-logger";
 const logger = reduxLogger.createLogger();
 
 const BUY_CAKE = "BUY_CAKE";
 const BUY_ICECREAM = "BUY_ICECREAM";
+
 //action creator
 function buyCake() {
   //an action is an object with a type property
@@ -30,7 +26,8 @@ const initialCakeState = {
 const initialIceCreamState = {
   numOfIceCreams: 10,
 };
-//Reducer functions for individual actions
+
+//--------------------------Reducer functions for individual actions
 const cakeReducer = (state = initialCakeState, action) => {
   switch (action.type) {
     case BUY_CAKE:
@@ -52,11 +49,13 @@ const rootReducer = combineReducers({
   cake: cakeReducer,
   iceCream: iceCreamReducer,
 });
+
+//-------------------------------------------creating a store
 const store = createStore(rootReducer, applyMiddleware(logger));
 console.log("Initial state", store.getState());
 
 const unsubscribe = store.subscribe(() =>
-  //setting up a listener to the store
+  //---------------------------------setting up a listener to the store
   {}
 );
 store.dispatch(buyCake());

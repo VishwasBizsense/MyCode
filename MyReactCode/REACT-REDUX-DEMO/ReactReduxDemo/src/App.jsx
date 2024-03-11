@@ -7,15 +7,27 @@ import store from "./redux/store";
 import HookCakeContainer from "./Components/HookCakeContainer";
 import HookIceCreamContainer from "./Components/HookIceCreamContainer";
 import IceCreamContainer from "./Components/IceCreamContainer";
+import NewCakeContainer from "./Components/NewCakeContainer";
+import ItemContainer from "./Components/ItemContainer";
+import UserContainer from "./Components/UserContainer";
 
 function App() {
   return (
     <Provider store={store}>
       <>
         <div className="App">
-          {/* <CakeContainer /> */}rrontainer /> */}
-          {/* <HookIceCreamContainer /> */}
-          <IceCreamContainer />
+          {/* <CakeContainer /> */}
+          {/* <IceCreamContainer /> */}
+          {/* ---------------------------Icecream and cake containers---------------------------------- */}
+          {/* <HookCakeContainer />
+          <HookIceCreamContainer /> */}
+          {/*------------------------------------- change by input---------------------------------------- */}
+          {/* <NewCakeContainer /> */}
+          {/* Conditional mapping of icecream or cake*/}
+          {/* <ItemContainer cake />
+          <ItemContainer /> */}
+
+          <UserContainer />
         </div>
       </>
     </Provider>

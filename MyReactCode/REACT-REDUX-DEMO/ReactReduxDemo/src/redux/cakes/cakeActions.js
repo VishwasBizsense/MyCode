@@ -1,10 +1,17 @@
-import { BUY_CAKE } from "./cakeTypes";
+import { BUY_CAKE, ADD_CAKE } from "./cakeTypes";
 
 //---------------------------------Action creator----------------------------------------
-const buyCake = () => {
+const buyCake = (buyNum = 1) => {
   return {
     type: BUY_CAKE,
+    payload: buyNum,
+  };
+};
+const addCake = (addNum = 1) => {
+  return {
+    type: ADD_CAKE,
+    payload: addNum,
   };
 };
 
-export default buyCake;
+export { buyCake, addCake };

@@ -1,3 +1,5 @@
-import buyCake from "./cakes/cakeActions";
+import { buyCake, addCake } from "./cakes/cakeActions";
 import buyIceCream from "./iceCream/iceCreamActions";
-export { buyCake, buyIceCream };
+export { buyCake, addCake, buyIceCream };
+
+export * from "./user/userActions";

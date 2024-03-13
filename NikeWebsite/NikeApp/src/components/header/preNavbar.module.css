@@ -1,0 +1,41 @@
+.pre-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f8f8; /* Change background color */
+  padding: 8px 20px; /* Adjust padding */
+  width: 100%; /* Set width to 100% */
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.left-content img {
+  width: 100px; /* Adjust logo width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.right-content {
+  display: flex;
+  flex-direction: row; /* Set flex-direction to row */
+}
+
+.nav-link {
+  margin-left: 20px; /* Adjust margin between links */
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #000; /* Change text color */
+  font-size: 14px; /* Adjust font size */
+  font-weight: 400; /* Adjust font weight */
+  line-height: 24px; /* Adjust line height */
+  letter-spacing: 0.5px; /* Adjust letter spacing */
+  text-transform: uppercase; /* Adjust text transformation */
+}
+
+.nav-link a:hover {
+  color: #666; /* Change hover color */
+}

@@ -1,0 +1,31 @@
+.slider-navbar {
+  background-color: #dfdddd;
+  color: black;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-navbar ul li {
+  display: none;
+  text-decoration: none;
+  color: #000; /* Change text color */
+  font-size: 20px; /* Adjust font size */
+  font-weight: 500; /* Adjust font weight */
+  line-height: 20px; /* Adjust line sheight */
+  text-align: center;
+}
+.slider-navbar ul li a {
+  color: #000;
+}
+
+.slider-navbar ul li.active {
+  display: block;
+}

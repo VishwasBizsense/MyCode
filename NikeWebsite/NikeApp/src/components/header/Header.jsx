@@ -1,17 +1,20 @@
 import React from "react";
-import styles from "./header.module.css";
+import styles from "../../Styles/header.module.css";
 import NikeLogo from "../../assets/nike-logo.svg";
 import PreNavbar from "./PreNavbar";
+import bag from "../../assets/bag.svg";
+import search from "../../assets/search.svg";
+import heart from "../../assets/heart.svg";
 
 export default function Header() {
   return (
-    <>
+    <div className={styles.headerContainer}>
       <PreNavbar />
       <div className={styles.containerNav}>
         <div className={styles.logo}>
           <a href="">
             <span>
-              <img src={NikeLogo} alt="" width="60px" height="30px" />
+              <img src={NikeLogo} alt="Nike logo" width="60px" height="30px" />
             </span>
           </a>
         </div>
@@ -37,7 +40,7 @@ export default function Header() {
         <div className={styles.searchBar}>
           <div className={styles.searchButtonDiv}>
             <button className={styles.searchButton}>
-              <i className="fa fa-search"></i>
+              <img src={search} alt="" />
             </button>
           </div>
           <input
@@ -46,9 +49,15 @@ export default function Header() {
             className={styles.searchInput}
           />
         </div>
-        <div className={styles.favorites}></div>
-        <div className={styles.bagItems}></div>
+        <div className={styles.favBag}>
+          <div className={styles.favorites}>
+            <img src={heart} alt="Favorites" />
+          </div>
+          <div className={styles.bagItems}>
+            <img src={bag} alt="Shopping Bag" />
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
 }

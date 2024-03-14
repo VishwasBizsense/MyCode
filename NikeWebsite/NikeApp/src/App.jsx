@@ -1,15 +1,15 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import React from "react";
-// import Home from "./Home";
-// import Products from "./Products";
-// import About from "./About";
-// import Contact from "./Contact";
+import TopSlider from "./components/header/TopSlider";
+import AllProducts from "./components/header/AllProducts";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
+      <TopSlider />
+      <AllProducts />
     </div>
   );
 }

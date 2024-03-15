@@ -1,0 +1,66 @@
+/* styles.module.css */
+.mvp-section {
+  margin-top: 100px;
+  font-family: "Helvetica Now Text Medium", Helvetica, sans-serif;
+}
+.title {
+  margin: 20px 60px;
+  line-height: 80px;
+  font-weight: bolder;
+  font-size: 3em;
+  margin-bottom: -40px;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 60px;
+  margin-top: 80px;
+}
+
+.product-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+}
+.product-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Adjust shadow on hover */
+}
+
+.product-image {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: contain; /* Ensure the images maintain aspect ratio and cover the container */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* .product-description {
+  margin: 5px;
+  font-size: 14px;
+  color: #555;
+} */
+
+.product-price {
+  font-size: 16px;
+  margin-top: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-rating {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+  text-align: center;
+}

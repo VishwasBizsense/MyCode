@@ -5,6 +5,7 @@ import PreNavbar from "./PreNavbar";
 import bag from "../../assets/bag.svg";
 import search from "../../assets/search.svg";
 import heart from "../../assets/heart.svg";
+import Categories from "./Categories";
 
 export default function Header() {
   return (
@@ -19,23 +20,7 @@ export default function Header() {
           </a>
         </div>
         <div className={styles.navMenu}>
-          <ul>
-            <li>
-              <a href="">New & Featured</a>
-            </li>
-            <li>
-              <a href="">Men</a>
-            </li>
-            <li>
-              <a href="">Women</a>
-            </li>
-            <li>
-              <a href="">Kids</a>
-            </li>
-            <li>
-              <a href="">Sale</a>
-            </li>
-          </ul>
+          <Categories />
         </div>
         <div className={styles.searchBar}>
           <div className={styles.searchButtonDiv}>

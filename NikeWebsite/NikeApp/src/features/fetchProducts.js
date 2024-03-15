@@ -4,6 +4,7 @@ const initialState = {
   loading: true,
   allProducts: [],
   error: null,
+  categories: [],
 };
 
 //creating action creator using thunk to fetch products from fakestore api .
@@ -12,7 +13,7 @@ export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async () => {
     const response = await axios.get("https://fakestoreapi.com/products");
-    console.log(response.data);
+    console.log("All Products", response.data);
     return response.data;
   }
 );

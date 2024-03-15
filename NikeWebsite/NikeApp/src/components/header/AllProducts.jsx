@@ -1,24 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from "../../features/fetchProducts";
+import React from "react";
 import Product from "./Product";
-import styles from "../../Styles/allProducts.module.css";
-
-export default function AllProducts() {
-  const dispatch = useDispatch();
-  const { loading, allProducts, error } = useSelector(
-    (state) => state.products
-  );
-  useEffect(() => {
-    dispatch(fetchProducts());
-  }, [dispatch]);
-
-  console.log("All products", allProducts);
-
+export default function AllProducts({ allProducts, title }) {
   return (
-    <div className={StyleSheet.allProducts}>
-      {allProducts.map(() => {})}
-      <Product />
+    <div>
+      <div className="all-section">
+        <p className="title">{title}</p>
+        <div className="products-container">
+          {allProducts?.map((product, i) => (
+            <div key={i}>
+              <Product product={product} />
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

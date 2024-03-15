@@ -4,8 +4,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #dfdddd; /* Change background color */
-  padding: 8px 20px; /* Adjust padding */
-  width: 100%; /* Set width to 100% */
+  padding: 8px 20px; /* Adjust padding */ /* Set width to 100% */
 }
 
 .left-content {
@@ -48,7 +47,6 @@
   line-height: 20px; /* Adjust line height */
   margin-left: 18px;
 }
-
 .left-content img:hover {
   opacity: 0.5; /* Adjust the opacity value as needed */
 }

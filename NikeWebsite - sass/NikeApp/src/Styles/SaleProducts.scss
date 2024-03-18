@@ -1,0 +1,46 @@
+@import "_variables";
+
+.product-price span {
+  text-decoration: line-through;
+  margin-left: 7px;
+  color: rgb(110, 109, 109);
+}
+.sale-section {
+  margin-top: 100px;
+  font-family: $helvatica;
+}
+.title {
+  @include title_styles;
+}
+.products-container {
+  @include product_container_styles;
+}
+
+.product-card {
+  @include product_card_styles;
+}
+.product-card:hover {
+  box-shadow: $product_box_shadow;
+}
+
+.product-image {
+  @include product_image_styles;
+}
+
+.product-title {
+  @include product_title_styles;
+}
+
+/* .product-description {
+  margin: 5px;
+  font-size: 14px;
+  color: #555;
+} */
+
+.product-price {
+  @include product_price_styles;
+}
+
+.product-rating {
+  @include product_rating_styles;
+}

@@ -1,0 +1,55 @@
+.bannerDiv {
+  position: relative;
+  height: auto; /* Set height to auto to avoid fixed height */
+  overflow: hidden; /* Hide overflowing content */
+  margin: 0px 60px;
+}
+
+.bannerImage {
+  width: 100%;
+  height: 100%;
+}
+
+.bannerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.bannerText p {
+  font-size: 1.4em;
+  padding: 3px;
+  margin: 3px;
+}
+.bannerText h3 {
+  font-size: 6em;
+  background: linear-gradient(to right, red, orange, rgb(88, 88, 255), yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 80px;
+  letter-spacing: -5px;
+}
+
+.bannerText a {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px; /* Adjust the border-radius to make it more rounded */
+  text-align: center;
+  margin: 5px auto;
+  transition: background-color 0.3s;
+}
+
+.bannerText a:hover {
+  background-color: #444444;
+}

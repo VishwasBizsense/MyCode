@@ -6,18 +6,19 @@ import bag from "../../assets/bag.svg";
 import search from "../../assets/search.svg";
 import heart from "../../assets/heart.svg";
 import Categories from "./Categories";
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <div className={styles.headerContainer}>
+    <div>
       <PreNavbar />
       <div className={styles.containerNav}>
         <div className={styles.logo}>
-          <a href="">
+          <Link to="/">
             <span>
               <img src={NikeLogo} alt="Nike logo" width="60px" height="30px" />
             </span>
-          </a>
+          </Link>
         </div>
         <div className={styles.navMenu}>
           <Categories />
@@ -36,10 +37,14 @@ export default function Header() {
         </div>
         <div className={styles.favBag}>
           <div className={styles.favorites}>
-            <img src={heart} alt="Favorites" />
+            <NavLink to="/favorite">
+              <img src={heart} alt="Favorites" />
+            </NavLink>
           </div>
           <div className={styles.bagItems}>
-            <img src={bag} alt="Shopping Bag" />
+            <NavLink to="/cart">
+              <img src={bag} alt="Shopping Bag" />
+            </NavLink>
           </div>
         </div>
       </div>

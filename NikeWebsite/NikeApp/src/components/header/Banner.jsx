@@ -13,7 +13,7 @@ export default function Banner() {
         <p>Coming Soon</p>
         <h3>NIKE AIR MAX</h3>
         <p>The next generation shoes of Nike are soon gonna be yours.</p>
-        <a href="">Get Notified</a>
+        <Link to="/notify">Get Notified</Link>
       </div>
     </div>
   );

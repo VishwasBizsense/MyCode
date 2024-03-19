@@ -1,26 +1,25 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+
 const initialState = {
   loadingPc: true,
   categoricalProducts: [],
   errorPc: null,
+  isInCartC: false,
+  isInFavoriteC: false,
 };
 
-//creating action creator using thunk to fetch products from fakestore api .
-
+// Creating action creator using thunk to fetch products from fakestore api
 export const fetchCategoricalProducts = createAsyncThunk(
   "products/fetchCategoricalProducts",
-  async () => {
-    const response = await axios.get(
-      "https://fakestoreapi.com/products/category/jewelery"
-    );
-    console.log("Electronics ", response.data);
+  async (category) => {
+    const response = await axios.get(`https://fakestoreapi.com/products/category/${category}`);
     return response.data;
   }
 );
 
-//a slice of the Redux store that contains reducers handling the fetched data.
-const productsSlice = createSlice({
+// A slice of the Redux store that contains reducers handling the fetched data
+const categoricalProductsSlice = createSlice({
   name: "categoricalProducts",
   initialState,
   reducers: {},
@@ -31,7 +30,8 @@ const productsSlice = createSlice({
       })
       .addCase(fetchCategoricalProducts.fulfilled, (state, action) => {
         state.loadingPc = false;
-        state.categoricalProductsw = action.payload;
+
+        state.categoricalProducts = action.payload;
       })
       .addCase(fetchCategoricalProducts.rejected, (state, action) => {
         state.loadingPc = false;
@@ -40,4 +40,5 @@ const productsSlice = createSlice({
   },
 });
 
-export default productsSlice.reducer;
+export default categoricalProductsSlice.reducer;
+

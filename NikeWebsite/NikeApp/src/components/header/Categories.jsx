@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCategories } from "../../features/fetchCategories";
 import styles from "../../Styles/categories.module.css";
-import Product from "./Product";
+import { NavLink } from 'react-router-dom';
+import Error from "./Error";
+import load from '../../assets/1486.gif'
 
 export default function Categories() {
   const dispatch = useDispatch();
@@ -14,15 +16,28 @@ export default function Categories() {
     dispatch(fetchCategories());
   }, [dispatch]);
 
-  return (
+  if (loadingC) {
+    return <div style={{ textAlign: "center", marginTop: "20px" }}>
+      <img
+        src={load}
+        alt="Loading..."
+        style={{ width: "50px", height: "50px" }} // Adjust width and height as needed
+      />
+    </div>
+  };
+
+  errorC ? <Error message={errorC.message} /> : "";
+  return (<>
     <div>
       <ul>
         {categories.map((category, i) => (
           <li key={i} className={styles.category}>
-            {category}
+            <NavLink to={`/${category}`} className={({ isActive }) => `${isActive ? styles.active : styles.inActive}`}>
+              {category}
+            </NavLink>
           </li>
         ))}
       </ul>
-    </div>
+    </div></>
   );
 }

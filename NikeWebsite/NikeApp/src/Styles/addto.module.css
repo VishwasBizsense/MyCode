@@ -1,17 +1,12 @@
-.product-actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.getinfo {
+.addTo button {
   text-align: center;
   background-color: grey;
   color: white;
   border-radius: 20px;
 }
-.getinfo:hover {
+.addTo button:hover {
   background-color: rgb(55, 54, 54);
 }
-.getinfo:active {
+.addTo button:active {
   border: none;
 }

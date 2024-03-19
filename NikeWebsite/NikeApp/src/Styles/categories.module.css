@@ -1,3 +1,10 @@
 .category {
   cursor: pointer;
 }
+.active {
+  background-color: rgb(179, 179, 179);
+  border-radius: 8px;
+}
+.inActive {
+  background-color: white;
+}

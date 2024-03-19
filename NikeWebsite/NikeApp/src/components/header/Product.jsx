@@ -1,9 +1,15 @@
-import React from "react";
+import React from 'react';
 import "../../Styles/product.css";
+import AddToCart from './AddToCart';
+import AddToFavorite from './AddToFavorite';
+import { Link } from 'react-router-dom'
 
-export default function Product({ product, discount }) {
-  console.log("Discount is", discount);
-  console.log("products in final comp", product);
+export default function Product({ product, discount, favButton, cartButton }) {
+  console.log("Discount is", product.discount);
+  function handleButtonClick(event) {
+    event.stopPropagation();
+  }
+
   return (
     <div key={product.id} className="product-card">
       <img src={product.image} alt={product.title} className="product-image" />
@@ -20,7 +26,15 @@ export default function Product({ product, discount }) {
             <b>Get it for: </b>${product.price}
           </p>
         )}
-        <p className="product-rating">Rating: {product.rating.rate}</p>
+        <p className="product-rating">Rating: {product.rating?.rate}</p>
+        {/* Use optional chaining (?.) to access product.rating.rate */}
+        <div className="product-actions">
+          {product.isInCart ? <AddToCart id={product.id} title="Added to Cart" /> : <AddToCart id={product.id} title="Add to Cart" />}
+          {product.isInFavorite ? <AddToFavorite id={product.id} title="Added to Favorite" /> : <AddToFavorite id={product.id} title="Add to Favorite" />}
+          <Link to={{ pathname: "/individual", state: product }}>
+            <button className='getinfo' onClick={handleButtonClick}>Get Info</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -1,28 +1,44 @@
+import { useState } from 'react';
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 const initialState = {
   loading: true,
   allProducts: [],
   error: null,
-  categories: [],
 };
-
-//creating action creator using thunk to fetch products from fakestore api .
 
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async () => {
     const response = await axios.get("https://fakestoreapi.com/products");
     console.log("All Products", response.data);
-    return response.data;
+    return response.data.map((product) => ({
+      ...product,
+      isInCart: false,
+      isInFavorite: false,
+    }));
   }
 );
 
-//a slice of the Redux store that contains reducers handling the fetched data.
 const productsSlice = createSlice({
   name: "products",
   initialState,
-  reducers: {},
+  reducers: {
+    toggleIsInCart: (state, action) => {
+      const { id } = action.payload;
+      const product = state.allProducts.find((product) => product.id === id);
+      if (product) {
+        product.isInCart = !product.isInCart;
+      }
+    },
+    toggleIsInFavorite: (state, action) => {
+      const { id } = action.payload;
+      const product = state.allProducts.find((product) => product.id === id);
+      if (product) {
+        product.isInFavorite = !product.isInFavorite;
+      }
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchProducts.pending, (state) => {
@@ -38,5 +54,7 @@ const productsSlice = createSlice({
       });
   },
 });
+
+export const { toggleIsInCart, toggleIsInFavorite } = productsSlice.actions;
 
 export default productsSlice.reducer;

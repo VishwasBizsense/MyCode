@@ -1,0 +1,14 @@
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\bin\Debug\net8.0\C#Training.exe
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\bin\Debug\net8.0\C#Training.deps.json
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\bin\Debug\net8.0\C#Training.runtimeconfig.json
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\bin\Debug\net8.0\C#Training.dll
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\bin\Debug\net8.0\C#Training.pdb
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\C#Training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\C#Training.AssemblyInfoInputs.cache
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\C#Training.AssemblyInfo.cs
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\C#Training.csproj.CoreCompileInputs.cache
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\C#Training.dll
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\refint\C#Training.dll
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\C#Training.pdb
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\C#Training.genruntimeconfig.cache
+C:\Users\vishwas.gandhi\Desktop\C#Training\C#Training\obj\Debug\net8.0\ref\C#Training.dll

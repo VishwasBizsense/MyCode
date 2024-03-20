@@ -7,11 +7,11 @@ export default function TopSlider() {
   const sliderItems = [
     {
       text: "Save Up to 40%",
-      link: "/markdowns",
+      link: "Sign In",
     },
     {
       text: "Move, Shop, Customise & Celebrate With Us. No matter what you feel like doing today, It’s better as a Member.",
-      link: "/join",
+      link: "Join Us",
     },
   ];
 
@@ -28,8 +28,9 @@ export default function TopSlider() {
       <ul>
         {sliderItems.map((item, index) => (
           <li key={index} className={index === currentSlide ? "active" : ""}>
-            {item.text} <br /> <br />
-            <Link to={item.link}>{item.text}</Link>
+            {item.text}
+            <br></br>
+            <Link to={item.link}>{item.link}</Link>
           </li>
         ))}
       </ul>

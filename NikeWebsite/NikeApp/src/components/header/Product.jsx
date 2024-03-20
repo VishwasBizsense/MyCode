@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import "../../Styles/product.css";
-import AddToCart from './AddToCart';
-import AddToFavorite from './AddToFavorite';
-import { Link } from 'react-router-dom'
+import AddToCart from "./AddToCart";
+import AddToFavorite from "./AddToFavorite";
+import { Link } from "react-router-dom";
 
 export default function Product({ product, discount, favButton, cartButton }) {
   console.log("Discount is", product.discount);
@@ -27,12 +27,22 @@ export default function Product({ product, discount, favButton, cartButton }) {
           </p>
         )}
         <p className="product-rating">Rating: {product.rating?.rate}</p>
-        {/* Use optional chaining (?.) to access product.rating.rate */}
+
         <div className="product-actions">
-          {product.isInCart ? <AddToCart id={product.id} title="Added to Cart" /> : <AddToCart id={product.id} title="Add to Cart" />}
-          {product.isInFavorite ? <AddToFavorite id={product.id} title="Added to Favorite" /> : <AddToFavorite id={product.id} title="Add to Favorite" />}
-          <Link to={{ pathname: "/individual", state: product }}>
-            <button className='getinfo' onClick={handleButtonClick}>Get Info</button>
+          {product.isInCart ? (
+            <AddToCart id={product.id} title="Remove from Cart" />
+          ) : (
+            <AddToCart id={product.id} title="Add to Cart" />
+          )}
+          {product.isInFavorite ? (
+            <AddToFavorite id={product.id} title="Remove from Favorite" />
+          ) : (
+            <AddToFavorite id={product.id} title="Add to Favorite" />
+          )}
+          <Link to={`/individual/${product.id}`}>
+            <button className="getinfo" onClick={handleButtonClick}>
+              Get Info
+            </button>
           </Link>
         </div>
       </div>

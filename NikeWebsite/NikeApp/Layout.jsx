@@ -1,4 +1,3 @@
-
 import Header from "./src/components/header/Header";
 import React from "react";
 import TopSlider from "./src/components/header/TopSlider";
@@ -9,13 +8,13 @@ import MVPProducts from "./src/components/header/MVPProducts";
 import { Outlet } from "react-router-dom";
 
 function Layout() {
-    return (
-        <>
-            <Header />
-            <TopSlider />
-            <Outlet />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <TopSlider />
+      <Outlet />
+    </>
+  );
 }
 
-export default Layout
+export default Layout;

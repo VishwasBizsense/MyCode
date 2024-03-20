@@ -1,14 +1,18 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchProducts, toggleIsInCart, toggleIsInFavorite } from "../../features/fetchProducts";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  fetchProducts,
+  toggleIsInCart,
+  toggleIsInFavorite,
+} from "../../features/fetchProducts";
 import Product from "./Product";
 import "../../Styles/homepage.css";
 import MVPProducts from "./MVPProducts";
 import SaleProducts from "./SaleProducts";
 import AllProducts from "./AllProducts";
-import Banner from './Banner';
-import Error from './Error';
-import load from '../../assets/1486.gif';
+import Banner from "./Banner";
+import Error from "./Error";
+import load from "../../assets/1486.gif";
 
 export default function HomePage() {
   const dispatch = useDispatch();
@@ -29,13 +33,15 @@ export default function HomePage() {
   };
 
   if (loading) {
-    return <div style={{ textAlign: "center", marginTop: "20px" }}>
-      <img
-        src={load}
-        alt="Loading..."
-        style={{ width: "50px", height: "50px" }} // Adjust width and height as needed
-      />
-    </div>;
+    return (
+      <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <img
+          src={load}
+          alt="Loading..."
+          style={{ width: "50px", height: "50px" }}
+        />
+      </div>
+    );
   }
 
   if (error) {

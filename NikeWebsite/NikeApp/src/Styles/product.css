@@ -1,5 +1,6 @@
 .product-actions {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -8,6 +9,7 @@
   background-color: grey;
   color: white;
   border-radius: 20px;
+  padding: 2px;
 }
 .getinfo:hover {
   background-color: rgb(55, 54, 54);

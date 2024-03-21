@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\C#Training\\C#Training.csproj": {}
+    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\C#Training\\C#Training.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\C#Training\\C#Training.csproj": {
+    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\C#Training\\C#Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\C#Training\\C#Training.csproj",
+        "projectUniqueName": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\C#Training\\C#Training.csproj",
         "projectName": "C#Training",
-        "projectPath": "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\C#Training\\C#Training.csproj",
+        "projectPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\C#Training\\C#Training.csproj",
         "packagesPath": "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\C#Training\\obj\\",
+        "outputPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\C#Training\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

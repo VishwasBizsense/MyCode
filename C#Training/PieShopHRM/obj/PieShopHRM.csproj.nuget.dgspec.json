@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\PieShopHRM\\PieShopHRM.csproj": {}
+    "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\PieShopHRM\\PieShopHRM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\PieShopHRM\\PieShopHRM.csproj": {
+    "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\PieShopHRM\\PieShopHRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\PieShopHRM\\PieShopHRM.csproj",
+        "projectUniqueName": "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\PieShopHRM\\PieShopHRM.csproj",
         "projectName": "PieShopHRM",
-        "projectPath": "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\PieShopHRM\\PieShopHRM.csproj",
+        "projectPath": "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\PieShopHRM\\PieShopHRM.csproj",
         "packagesPath": "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vishwas.gandhi\\Desktop\\C#Training\\PieShopHRM\\obj\\",
+        "outputPath": "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\PieShopHRM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -20,7 +20,7 @@ namespace BethanysPieShop
 			// Get the number of days in the current month
 			int daysInCurrentMonth = DateTime.DaysInMonth(currentDate.Year, currentDate.Month);
 
-			return (monthlyWage * numberOfMonthsWorked)+(monthlyWage/daysInCurrentMonth)*extraDays;
+			return (monthlyWage * numberOfMonthsWorked) + monthlyWage/daysInCurrentMonth*extraDays;
 		}
 
 

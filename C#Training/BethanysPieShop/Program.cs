@@ -37,5 +37,8 @@ int month,year;
 utilities.GetMonthAndYear(out month, out year);
 Console.WriteLine($"Current Month is {month} and Year {year}");
 
+
+SBuilder.ExecuteStringBuilder();
+
 Console.ReadLine();
 

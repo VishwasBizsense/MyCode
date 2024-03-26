@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fhM+Hne9MVrDU6PBrn+nNBJ21Hl1Kbv9W/ihjxi6B1AlMiv77iYf4A/msQeThFnKRAKnN/rsYY/Rf1uH8VNpAQ==",
+  "dgSpecHash": "+yyOP39AKO2szNbVLFz8CBCkd8O6iwBev2M1B05xIEnd2cqasr4BNYeBJ+JZKkWriyCNAGkA72E5T5u9+Dl8Cw==",
   "success": true,
   "projectFilePath": "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -13,3 +13,6 @@ c:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\ERP\obj\De
 c:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\ERP\obj\Debug\net8.0\ERP.pdb
 c:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\ERP\obj\Debug\net8.0\ERP.genruntimeconfig.cache
 c:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\ERP\obj\Debug\net8.0\ref\ERP.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\ERP\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\ERP\obj\Debug\net8.0\ERP.csproj.AssemblyReference.cache
+c:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\ERP\obj\Debug\net8.0\ERP.csproj.Up2Date

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj": {}
+    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj": {}
   },
   "projects": {
-    "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj": {
+    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj",
+        "projectUniqueName": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj",
         "projectName": "ERP",
-        "projectPath": "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj",
+        "projectPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\ERP.csproj",
         "packagesPath": "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\obj\\",
+        "outputPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\ERP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

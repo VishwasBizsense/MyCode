@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ERP.HR
 {
-    internal class EmployeeID
+    internal class Utilities
     {
 
     }

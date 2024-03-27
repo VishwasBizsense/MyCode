@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace ERP.HR
 {
-    internal class Employee
+    public class Employee :IEmployee
     {
         private string _firstName;
         private string _lastName;
@@ -13,9 +13,9 @@ namespace ERP.HR
         private double _wage;
         private double _hourlyRate;
         private DateTime _birthday;
-        private EmployeeType _employeeType;
+//        private EmployeeType _employeeType;
         private int _minimalHoursWorkedUnit = 1;
-
+        public static double taxRate = 0.15;
         public string FirstName
         {
             get { return _firstName; }
@@ -38,13 +38,13 @@ namespace ERP.HR
         {
             get { return _numberOfHoursWorked; }
 
-            set { _numberOfHoursWorked = value; }
+            protected set { _numberOfHoursWorked = value; }
         }
 
         public double Wage
         {
             get { return _wage; }
-            set { _wage = value; }
+            protected set { _wage = value; }
         }
 
         public double HourlyRate
@@ -66,18 +66,18 @@ namespace ERP.HR
             set { _birthday = value; }
         }
 
-        public EmployeeType EmployeeType
-        {
-            get { return _employeeType; }
-            set { _employeeType = value; }
-        }
+        // public EmployeeType EmployeeType
+        // {
+        //     get { return _employeeType; }
+        //     set { _employeeType = value; }
+        // }
 
         public int MinimalHoursWorkedUnit
         {
             get { return _minimalHoursWorkedUnit; }
             set { _minimalHoursWorkedUnit = value; }
         }
-        //-------------------------------------- Constructor overloading ---------------------------------------------------
+        //-------------------------------------- Constructor overloading ----------------------------------------
 
         // public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0)
         // {
@@ -91,23 +91,44 @@ namespace ERP.HR
         //   birthday = bd;
         //   hourlyRate = rate;
         // }
+
+
+        //Using a custom Address class
+
+        private Address address;//creating an Address type reference variable;
+        public Address Address
+        {
+            get { return address; }
+            set { address = value; } 
+        }
         //:::::::::::::::::::::::::::::Constructor using enum :::::::::::::::::::::::::::::::::::::::::::::::::
 
         // Constructors
-        public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0, EmployeeType.Sales)
+        public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0)
         {
         }
 
-        public Employee(string first, string last, string em, DateTime bd, double rate, EmployeeType empType)
+        public Employee(string first, string last, string em, DateTime bd, double rate)
         {
             FirstName = first;
             LastName = last;
             Email = em;
             Birthday = bd;
             HourlyRate = rate;
-            EmployeeType = empType;
+            // EmployeeType = empType;
         }
+        public Employee(string first, string last, string em, DateTime bd, double rate, string street,
+                    string houseNumber, string zipCode, string city)
+        {
+            FirstName = first;
+            LastName = last;
+            Email = em;
+            Birthday = bd;
+            HourlyRate = rate;
+            
+            Address = new Address (street, houseNumber, zipCode, city);  
 
+        }
 
 
         public void PerformWork()
@@ -123,57 +144,18 @@ namespace ERP.HR
 
         public void DisplayEmployeeDetails()
         {
-            Console.WriteLine($" \nFirst Name : \t {FirstName} \nLast Name : \t {LastName} \nEmail : \t {Email} \nBirthday : \t {Birthday.ToShortDateString()}\n Designation : \t {EmployeeType}\n");
+            Console.WriteLine($" \nFirst Name : \t {FirstName} \nLast Name : \t {LastName} \nEmail : \t {Email} \nBirthday : \t {Birthday.ToShortDateString()}\n");
         }
 
 
-        // public double ReceiveWage(bool resetHours = true)
-        // {
-
-        //   if (employeeType == EmployeeType.Manager)
-        //   {
-        //     wage = numberOfHoursWorked * hourlyRate * 1.5;
-        //     System.Console.WriteLine($"Since {firstName} is a Manager , wgae is 1.5 times employee.");
-        //   }
-        //   else
-        //   { wage = numberOfHoursWorked * hourlyRate; }
-        //   System.Console.WriteLine($"{firstName} {lastName} has received a wage of {wage} for {numberOfHoursWorked} hour(s) of work.");
-
-        //   if (resetHours)
-        //   {
-        //     numberOfHoursWorked = 0;
-        //   }
-        //   return wage;
-        // }
-
-        //::::::::::::::::::::::: wage according to different employeetypes ::::::::::::::::::::::::
-        #region Receive wage method for different enums
         public double ReceiveWage(bool resetHours = true)
         {
-            double wageMultiplier = 1.0;
+            double wageBeforeTax = NumberOfHoursWorked * HourlyRate;
+            double taxAmount = wageBeforeTax * taxRate;
 
-            switch (EmployeeType)
-            {
-                case EmployeeType.Manager:
-                    wageMultiplier = 2.0;
-                    Console.WriteLine($"{FirstName} {LastName} is a Manager, so wage is 2 times the regular rate.");
-                    break;
-                case EmployeeType.Research:
-                    wageMultiplier = 1.5;
-                    Console.WriteLine($"{FirstName} {LastName} is in Research, so wage is 1.5 times the regular rate.");
-                    break;
-                case EmployeeType.StoreManager:
-                    wageMultiplier = 1.8;
-                    Console.WriteLine($"{FirstName} {LastName} is a Store Manager, so wage is 1.8 times the regular rate.");
-                    break;
-                default:
-                    Console.WriteLine($"{FirstName} {LastName} is a standard employee, wage is calculated as usual.");
-                    break;
-            }
+            Wage = wageBeforeTax - taxAmount;
 
-            Wage = NumberOfHoursWorked * HourlyRate * wageMultiplier;
-
-            Console.WriteLine($"{FirstName} {LastName} has received a wage of {Wage} for {NumberOfHoursWorked} hour(s) of work.");
+            System.Console.WriteLine($"{FirstName} {LastName} has received a wage of {Wage} for {NumberOfHoursWorked} hour(s) of work.");
 
             if (resetHours)
             {
@@ -181,6 +163,42 @@ namespace ERP.HR
             }
             return Wage;
         }
+
+        //::::::::::::::::::::::: wage according to different employeetypes ::::::::::::::::::::::::
+        #region Receive wage method for different enums
+        // public double ReceiveWage(bool resetHours = true)
+        // {
+        //     double wageMultiplier = 1.0;
+
+        //     switch (EmployeeType)
+        //     {
+        //         case EmployeeType.Manager:
+        //             wageMultiplier = 2.0;
+        //             Console.WriteLine($"{FirstName} {LastName} is a Manager, so wage is 2 times the regular rate.");
+        //             break;
+        //         case EmployeeType.Research:
+        //             wageMultiplier = 1.5;
+        //             Console.WriteLine($"{FirstName} {LastName} is in Research, so wage is 1.5 times the regular rate.");
+        //             break;
+        //         case EmployeeType.StoreManager:
+        //             wageMultiplier = 1.8;
+        //             Console.WriteLine($"{FirstName} {LastName} is a Store Manager, so wage is 1.8 times the regular rate.");
+        //             break;
+        //         default:
+        //             Console.WriteLine($"{FirstName} {LastName} is a standard employee, wage is calculated as usual.");
+        //             break;
+        //     }
+
+        //     Wage = NumberOfHoursWorked * HourlyRate * wageMultiplier;
+
+        //     Console.WriteLine($"{FirstName} {LastName} has received a wage of {Wage} for {NumberOfHoursWorked} hour(s) of work.");
+
+        //     if (resetHours)
+        //     {
+        //         NumberOfHoursWorked = 0;
+        //     }
+        //     return Wage;
+        // }
 
         #endregion
 
@@ -233,5 +251,15 @@ namespace ERP.HR
             return json;
         }
 
+        //GiveBonus methods for polymorphism
+        
+        public virtual void GiveBonus()
+        {
+            Console.WriteLine($"{FirstName} {LastName} got a bonus of 100!");
+        }
+        public void GiveCompliment()
+        {
+            Console.WriteLine($"You have done a great job! , {FirstName}");
+        }
     }
 }

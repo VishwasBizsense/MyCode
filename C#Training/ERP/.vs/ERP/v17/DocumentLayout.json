@@ -3,24 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\employeeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\employeeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\accounting\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:accounting\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027DFE04-B13C-4007-8BF1-352FEE7A38BB}|..\\ERP.tests\\ERP.tests.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\researcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\researcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\juniorresearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\juniorresearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\storemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\storemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\erp\\hr\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B582FD-2E70-47D3-86FD-E085594EF86E}|ERP.csproj|solutionrelative:hr\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +53,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeID.cs",
-              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\EmployeeID.cs",
-              "RelativeDocumentMoniker": "HR\\EmployeeID.cs",
-              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\EmployeeID.cs",
-              "RelativeToolTip": "HR\\EmployeeID.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Utilities.cs",
+              "RelativeDocumentMoniker": "HR\\Utilities.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Utilities.cs",
+              "RelativeToolTip": "HR\\Utilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T11:58:02.308Z",
+              "WhenOpened": "2024-03-27T12:59:40.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP.tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\ERP.tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP.tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\ERP.tests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:49:25.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\IEmployee.cs",
+              "RelativeDocumentMoniker": "HR\\IEmployee.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\IEmployee.cs",
+              "RelativeToolTip": "HR\\IEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:22:24.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\Accounting\\Account.cs",
-              "RelativeDocumentMoniker": "Accounting\\Account.cs",
-              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\Accounting\\Account.cs",
-              "RelativeToolTip": "Accounting\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Employee.cs",
+              "RelativeDocumentMoniker": "HR\\Employee.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Employee.cs",
+              "RelativeToolTip": "HR\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T10:45:20.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Test.cs",
-              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Test.cs",
-              "RelativeDocumentMoniker": "HR\\Test.cs",
-              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Test.cs",
-              "RelativeToolTip": "HR\\Test.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T08:20:11.88Z",
+              "WhenOpened": "2024-03-22T08:36:30.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAwwKQAAAAAAAAA",
+              "ViewState": "AQIAAD4BAAAAAAAAAAAuwEUBAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-26T06:04:49.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Employee.cs",
-              "RelativeDocumentMoniker": "HR\\Employee.cs",
-              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Employee.cs",
-              "RelativeToolTip": "HR\\Employee.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAmwEwAAAAYAAAA",
+              "DocumentIndex": 6,
+              "Title": "Researcher.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Researcher.cs",
+              "RelativeDocumentMoniker": "HR\\Researcher.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Researcher.cs",
+              "RelativeToolTip": "HR\\Researcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T08:36:30.726Z",
+              "WhenOpened": "2024-03-27T06:38:23.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\StoreManager.cs",
+              "RelativeDocumentMoniker": "HR\\StoreManager.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\StoreManager.cs",
+              "RelativeToolTip": "HR\\StoreManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:25:09.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Developer.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Developer.cs",
+              "RelativeDocumentMoniker": "HR\\Developer.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Developer.cs",
+              "RelativeToolTip": "HR\\Developer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:24:55.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Address.cs",
+              "RelativeDocumentMoniker": "HR\\Address.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Address.cs",
+              "RelativeToolTip": "HR\\Address.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:01:30.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JuniorResearcher.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\JuniorResearcher.cs",
+              "RelativeDocumentMoniker": "HR\\JuniorResearcher.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\JuniorResearcher.cs",
+              "RelativeToolTip": "HR\\JuniorResearcher.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:39:49.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Manager.cs",
+              "RelativeDocumentMoniker": "HR\\Manager.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\ERP\\HR\\Manager.cs",
+              "RelativeToolTip": "HR\\Manager.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:58:02.308Z",
               "EditorCaption": ""
             }
           ]

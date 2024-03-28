@@ -112,10 +112,10 @@ using ERP.Accounting;
 
 // Console.WriteLine("------------------------------------------------------\n");
 
-// Employee Vishwas = new Employee("Vishwas", "Gandhi", "vg@bizsense.in", new DateTime(2001, 1, 02), 25);
-// Employee john = new Employee("John", "Doe", "john@example.com", new DateTime(1995, 5, 15), 20);
-// Employee emily = new Employee("Emily", "Smith", "emily@example.com", new DateTime(1998, 10, 20), 30);
-// Employee sarah = new Employee("Sarah", "Johnson", "sarah@example.com", new DateTime(1990, 3, 8), 35);
+Employee Vishwas = new Employee("Vishwas", "Gandhi", "vg@bizsense.in", new DateTime(2001, 1, 02), 25);
+Employee john = new Employee("John", "Doe", "john@example.com", new DateTime(1995, 5, 15), 20);
+Employee emily = new Employee("Emily", "Smith", "emily@example.com", new DateTime(1998, 10, 20), 30);
+Employee sarah = new Employee("Sarah", "Johnson", "sarah@example.com", new DateTime(1990, 3, 8), 35);
 
 // //---------------------invoking methods from employee class through the instance created--------------------
 // Vishwas.DisplayEmployeeDetails();

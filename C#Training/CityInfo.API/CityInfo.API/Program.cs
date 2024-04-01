@@ -1,12 +1,29 @@
+using Microsoft.AspNetCore.StaticFiles;
 //method provided by ASP.NET Core for building web applications, including Web APIs.
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.ReturnHttpNotAcceptable = true;
+}).AddXmlDataContractSerializerFormatters();
+
+//----------------Adding custom problem details info -----------------------------------------
+
+// builder.Services.AddProblemDetails(options =>
+// {
+//     options.CustomizeProblemDetails = ctx =>
+//     {
+//         ctx.ProblemDetails.Extensions.Add("Additional Info", "Additional info example");
+//         ctx.ProblemDetails.Extensions.Add("Server", Environment.MachineName);
+//     };
+// });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 
 var app = builder.Build();
 

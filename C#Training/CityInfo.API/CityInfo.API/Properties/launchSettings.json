@@ -30,7 +30,6 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    //Internet Information Services (IIS), a web server used to host ASP.NET applications.a lightweight version of IIS for local development.
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,

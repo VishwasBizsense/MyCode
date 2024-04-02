@@ -1,16 +1,29 @@
+using CityInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .WriteTo.File("logs/cityinfo.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+
 //method provided by ASP.NET Core for building web applications, including Web APIs.
 var builder = WebApplication.CreateBuilder(args);
-
+// builder.Logging.ClearProviders();
+// builder.Logging.AddConsole();
+builder.Host.UseSerilog();
 // Add services to the container.
 
 builder.Services.AddControllers(options =>
 {
     options.ReturnHttpNotAcceptable = true;
-}).AddXmlDataContractSerializerFormatters();
+}).AddNewtonsoftJson()
+.AddXmlDataContractSerializerFormatters();
 
 //----------------Adding custom problem details info -----------------------------------------
-
+builder.Services.AddProblemDetails();
 // builder.Services.AddProblemDetails(options =>
 // {
 //     options.CustomizeProblemDetails = ctx =>
@@ -24,6 +37,8 @@ builder.Services.AddControllers(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
+//Using Custom Service
+builder.Services.AddTransient<LocalMailService>();
 
 var app = builder.Build();
 
@@ -33,6 +48,13 @@ var env = app.Environment.EnvironmentName;
 var appName = app.Environment.ApplicationName;
 
 // Configure the HTTP request pipeline.
+
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler();
+}
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

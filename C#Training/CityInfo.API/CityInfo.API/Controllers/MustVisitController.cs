@@ -14,12 +14,15 @@ namespace CityInfo.API.Controllers
         //It allows logging messages from different parts of the application, with T representing
         // the type of the class where the logger is being used.
         private readonly ILogger<MustVisitController> _logger;
-        private readonly LocalMailService _mailService;
+        private readonly IMailService _mailService;
+        private readonly CitiesDataStore _citiesDataStore;
 
-        public MustVisitController(ILogger<MustVisitController> logger, LocalMailService mailService)
+        public MustVisitController(ILogger<MustVisitController> logger, IMailService mailService, CitiesDataStore citiesDataStore)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _mailService = mailService ?? throw new ArgumentNullException(nameof(mailService));
+            _citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
+
         }
 
 
@@ -29,7 +32,7 @@ namespace CityInfo.API.Controllers
             // throw new Exception("Exception sample");
             try
             {
-                var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+                var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
                 if (city == null)
                 {
                     _logger.LogInformation($"City with id {cityId} wasn't found when accessing must visit objects.");
@@ -47,7 +50,7 @@ namespace CityInfo.API.Controllers
         [HttpGet("{mustVisitId}", Name = "GetSingleMustVisit")]
         public ActionResult<MustVisitDto> GetSingleMustVisit(int cityId, int mustVisitId)
         {
-            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
             if (city == null)
             {
                 return NotFound();
@@ -69,13 +72,13 @@ namespace CityInfo.API.Controllers
             // {
             //     return BadRequest();
             // }
-            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
             if (city == null)
             {
                 return NotFound();
             }
 
-            var maxMustVisitId = CitiesDataStore.Current.Cities.SelectMany(c => c.MustVisit).Max(p => p.Id);
+            var maxMustVisitId = _citiesDataStore.Cities.SelectMany(c => c.MustVisit).Max(p => p.Id);
 
             var finalMustVisit = new MustVisitDto()
             {
@@ -108,7 +111,7 @@ namespace CityInfo.API.Controllers
         [HttpPut("{mustVisitId}")]
         public ActionResult UpdateMustVisit(int cityId, int mustVisitId, MustVisitForUpdateDto mustVisit)
         {
-            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
             if (city == null)
             {
                 return NotFound();
@@ -129,7 +132,7 @@ namespace CityInfo.API.Controllers
         public ActionResult PartiallyUpdateMustVisit(int cityId, int mustVisitId, JsonPatchDocument<MustVisitForUpdateDto> patchDocument)
         {
             // Retrieve the city from the data store based on the provided cityId
-            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
             if (city == null)
             {
                 // Return a 404 Not Found response if the city is not found
@@ -184,7 +187,7 @@ namespace CityInfo.API.Controllers
         public ActionResult DeleteMustVisit(int cityId, int mustVisitId)
         {
 
-            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
             if (city == null)
             {
                 // Return a 404 Not Found response if the city is not found

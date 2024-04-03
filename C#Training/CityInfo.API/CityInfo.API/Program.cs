@@ -1,5 +1,8 @@
+using CityInfo.API;
+using CityInfo.API.DbContexts;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -38,7 +41,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 //Using Custom Service
-builder.Services.AddTransient<LocalMailService>();
+//Defines that whenever this is service is injected , a new instance of LocalMailService
+//that implements IMailService
+#if DEBUG //Compiler Directives tells the compiler to omit or include any piece of code depending on condition
+builder.Services.AddTransient<IMailService, LocalMailService>();
+#else
+builder.Services.AddTransient<IMailService ,CloudMailService>();
+#endif
+
+builder.Services.AddSingleton<CitiesDataStore>();
+
+builder.Services.AddDbContext<CityInfoContext>(DbContextOptions => DbContextOptions.UseSqlite("Data Source=CityInfo.db"));
 
 var app = builder.Build();
 

@@ -8,7 +8,7 @@ namespace CityInfo.API
         //Singleton Pattern
         //The Current property in the CitiesDataStore class is created as a static instance 
         //of the CitiesDataStore class itself. 
-        public static CitiesDataStore Current { get; } = new CitiesDataStore();
+  //      public static CitiesDataStore Current { get; } = new CitiesDataStore();
 
         public CitiesDataStore()
         {

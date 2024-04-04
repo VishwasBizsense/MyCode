@@ -17,7 +17,10 @@ var builder = WebApplication.CreateBuilder(args);
 // builder.Logging.ClearProviders();
 // builder.Logging.AddConsole();
 builder.Host.UseSerilog();
-// Add services to the container.
+
+
+
+//======================================= Add services to the container.========================================
 
 builder.Services.AddControllers(options =>
 {
@@ -50,8 +53,16 @@ builder.Services.AddTransient<IMailService ,CloudMailService>();
 #endif
 
 builder.Services.AddSingleton<CitiesDataStore>();
+//Registering dbcontext and choosing databasetype
+builder.Services.AddDbContext<CityInfoContext>(
+    dbContextOptions => dbContextOptions.UseSqlite(
+        builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
 
-builder.Services.AddDbContext<CityInfoContext>(DbContextOptions => DbContextOptions.UseSqlite("Data Source=CityInfo.db"));
+//Injecting CityInfo contract and repository for scoped lifetime
+builder.Services.AddScoped<ICityInfoRepository,CityInfoRepository>();
+
+//========================================End Of services======================================================
+
 
 var app = builder.Build();
 

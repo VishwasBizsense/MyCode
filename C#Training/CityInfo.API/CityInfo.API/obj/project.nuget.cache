@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "H6DE580stcSJsCQybaE11likB2+S8lfupR63jLenPSXZL3s33r9MDEIo0qM8RgEb2voHo/31vVDDVH+X+sfqLg==",
+  "dgSpecHash": "/yzkO+lVJ43+uvbzNUX9H5TEmJlTErX1c/gi7Yxh0U4PMM7tAeP0ECZNGGQqD6ukJUo3hBOzkN08HJkXR4RC5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.3\\microsoft.aspnetcore.jsonpatch.8.0.3.nupkg.sha512",
     "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.3\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.3.nupkg.sha512",

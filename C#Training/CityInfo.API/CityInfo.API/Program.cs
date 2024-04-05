@@ -54,12 +54,20 @@ builder.Services.AddTransient<IMailService ,CloudMailService>();
 
 builder.Services.AddSingleton<CitiesDataStore>();
 //Registering dbcontext and choosing databasetype
+// builder.Services.AddDbContext<CityInfoContext>(
+//     dbContextOptions => dbContextOptions.UseSqlite(
+//        "Data Source=CityInfo.db"));
+
 builder.Services.AddDbContext<CityInfoContext>(
     dbContextOptions => dbContextOptions.UseSqlite(
         builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
+// Console.WriteLine("connection string" +builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]);
 
 //Injecting CityInfo contract and repository for scoped lifetime
-builder.Services.AddScoped<ICityInfoRepository,CityInfoRepository>();
+builder.Services.AddScoped<ICityInfoRepository, CityInfoRepository>();
+
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 //========================================End Of services======================================================
 

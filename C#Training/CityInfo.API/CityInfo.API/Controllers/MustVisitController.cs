@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.JsonPatch;
 using CityInfo.API.Services;
+using AutoMapper;
 namespace CityInfo.API.Controllers
 {
     [ApiController]
@@ -15,81 +16,73 @@ namespace CityInfo.API.Controllers
         // the type of the class where the logger is being used.
         private readonly ILogger<MustVisitController> _logger;
         private readonly IMailService _mailService;
-        private readonly CitiesDataStore _citiesDataStore;
+        private readonly ICityInfoRepository _cityInfoRepository;
+        private readonly IMapper _mapper;
 
-        public MustVisitController(ILogger<MustVisitController> logger, IMailService mailService, CitiesDataStore citiesDataStore)
+        public MustVisitController(ILogger<MustVisitController> logger, IMailService mailService,
+        ICityInfoRepository cityInfoRepository,
+        IMapper mapper)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _mailService = mailService ?? throw new ArgumentNullException(nameof(mailService));
-            _citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
-
+            //_citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
+            _cityInfoRepository = cityInfoRepository ?? throw new ArgumentNullException(nameof(cityInfoRepository));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
 
         [HttpGet("")]
-        public ActionResult<IEnumerable<MustVisitDto>> GetMustVisit(int cityId)
+        public async Task<ActionResult<IEnumerable<MustVisitDto>>> GetMustVisit(int cityId)
         {
-            // throw new Exception("Exception sample");
-            try
+            if (!await _cityInfoRepository.CityExistsAsync(cityId))
             {
-                var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
-                if (city == null)
-                {
-                    _logger.LogInformation($"City with id {cityId} wasn't found when accessing must visit objects.");
-                    return NotFound();
-                }
-                return Ok(city.MustVisit);
+                _logger.LogInformation($"City with Id {cityId} was not found when accesing must visit places.");
+                return NotFound();
             }
-            catch (Exception ex)
-            {
-                _logger.LogCritical($"Exception while getting mostvisited for city with id {cityId}", ex);
-                return StatusCode(500, "A problem happened while handling your request.");
-            }
+            var mustVisitForCity = await _cityInfoRepository.GetMustVisitsForCityAsync(cityId);
+
+            //When we call _mapper.Map<IEnumerable<MustVisitDto>>(mustVisitForCity),
+            //AutoMapper internally selects the appropriate mapping function based on the source (MustVisit)
+            //and destination (MustVisitDto) types. Here mustVisitForCity is of type IEnumerable<MustVisit> (source).
+
+            return Ok(_mapper.Map<IEnumerable<MustVisitDto>>(mustVisitForCity));
         }
 
         [HttpGet("{mustVisitId}", Name = "GetSingleMustVisit")]
-        public ActionResult<MustVisitDto> GetSingleMustVisit(int cityId, int mustVisitId)
+        public async Task<ActionResult<MustVisitDto>> GetSingleMustVisit(int cityId, int mustVisitId)
         {
-            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
-            if (city == null)
+            if (!await _cityInfoRepository.CityExistsAsync(cityId))
             {
                 return NotFound();
             }
+            var pointOfInterest = await _cityInfoRepository.GetMustVisitForCityAsync(cityId, mustVisitId);
+            return Ok(_mapper.Map<MustVisitDto>(pointOfInterest));
 
-            // Find the point of interest
-            var mustVisit = city.MustVisit.FirstOrDefault(m => m.Id == mustVisitId);
-            if (mustVisit == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(mustVisit);
         }
+
+
+
         [HttpPost]
-        public ActionResult<MustVisitDto> CreateMustVisit(int cityId, MustVisitDto mustVisit)
+        public async Task<ActionResult<MustVisitDto>> CreateMustVisit(int cityId, MustVisitDto
+         mustVisit)
         {
-            // if (!ModelState.IsValid)
-            // {
-            //     return BadRequest();
-            // }
-            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
-            if (city == null)
+            if (!await _cityInfoRepository.CityExistsAsync(cityId))
             {
+                _logger.LogInformation($"City with Id {cityId} was not found when accesing must visit places.");
                 return NotFound();
             }
 
-            var maxMustVisitId = _citiesDataStore.Cities.SelectMany(c => c.MustVisit).Max(p => p.Id);
+            var finalMustVisit = _mapper.Map<Entities.MustVisit>(mustVisit);
 
-            var finalMustVisit = new MustVisitDto()
-            {
-                Id = maxMustVisitId + 1,
-                Name = mustVisit.Name,
-                Description = mustVisit.Description
-            };
+            await _cityInfoRepository.AddMustVisitForCityAsync(cityId, finalMustVisit);
 
-            city.MustVisit.Add(finalMustVisit);
+            await _cityInfoRepository.SaveChangesAsync();
+
+            var createdMustVisitToReturn = _mapper.Map<Models.MustVisitDto>(finalMustVisit);
             // return Ok("Done");
-            return CreatedAtAction("GetSingleMustVisit", new { cityId, mustVisitId = finalMustVisit.Id }, finalMustVisit);
+            return CreatedAtRoute("GetSingleMustVisit",
+             new { cityId, mustVisitId = createdMustVisitToReturn.Id },
+              createdMustVisitToReturn);
 
             //CreatedAtAction (string? actionName, object? routeValues, object? value);
             // actionName
@@ -108,6 +101,7 @@ namespace CityInfo.API.Controllers
             //  resource or any other relevant data.
         }
         //Updating a resource using PUT
+        /*
         [HttpPut("{mustVisitId}")]
         public ActionResult UpdateMustVisit(int cityId, int mustVisitId, MustVisitForUpdateDto mustVisit)
         {
@@ -213,7 +207,7 @@ namespace CityInfo.API.Controllers
             return NoContent();
         }
 
-
+*/
     }
 
 }

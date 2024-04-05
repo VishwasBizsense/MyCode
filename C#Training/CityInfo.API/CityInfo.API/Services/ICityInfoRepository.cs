@@ -9,9 +9,12 @@ namespace CityInfo.API.Services
     //    which means it's an asynchronous method that will eventually return an IEnumerable<City>.
     Task<IEnumerable<City>> GetCitiesAsync();
     Task<City?> GetCityAsync(int cityId, bool includeMustVisits);
-
+    Task<bool> CityExistsAsync(int cityId);
     Task<IEnumerable<MustVisit>> GetMustVisitsForCityAsync(int cityId);
     Task<MustVisit?> GetMustVisitForCityAsync(int cityId, int mustVisitId);
 
+    Task AddMustVisitForCityAsync(int cityId, MustVisit mustVisit);
+
+    Task<bool> SaveChangesAsync();
   }
 }

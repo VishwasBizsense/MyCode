@@ -140,3 +140,5 @@ C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.A
 C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,0 +1,906 @@
+2024-04-04 11:29:56.963 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 11:29:58.078 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 11:29:59.109 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 12:04:07.579 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 12:04:08.303 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 12:04:08.326 +05:30 [DBG] Creating DbConnection.
+2024-04-04 12:04:08.338 +05:30 [DBG] Created DbConnection. (10ms).
+2024-04-04 12:04:08.344 +05:30 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.348 +05:30 [DBG] Creating DbConnection.
+2024-04-04 12:04:08.351 +05:30 [DBG] Created DbConnection. (2ms).
+2024-04-04 12:04:08.353 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.371 +05:30 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.374 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.380 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (2ms).
+2024-04-04 12:04:08.380 +05:30 [DBG] Creating DbConnection.
+2024-04-04 12:04:08.380 +05:30 [DBG] Created DbConnection. (0ms).
+2024-04-04 12:04:08.380 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.381 +05:30 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.381 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.381 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:04:08.381 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.398 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.407 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:04:08.415 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2024-04-04 12:04:08.416 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (12ms).
+2024-04-04 12:04:08.422 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-04-04 12:04:08.460 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-04-04 12:04:08.462 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.465 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (2ms).
+2024-04-04 12:04:08.576 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:04:08.576 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:08.576 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:08.576 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.576 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.576 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-04-04 12:04:08.616 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-04-04 12:04:08.616 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.616 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:04:08.617 +05:30 [DBG] Creating DbConnection.
+2024-04-04 12:04:08.618 +05:30 [DBG] Created DbConnection. (0ms).
+2024-04-04 12:04:08.618 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.619 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.621 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.621 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:04:08.626 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-04 12:04:08.626 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-04-04 12:04:08.626 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-04-04 12:04:08.626 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.626 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.627 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 12:04:08.629 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 12:04:08.726 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.727 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:04:08.734 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.734 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.734 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-04 12:04:08.735 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-04 12:04:08.735 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-04-04 12:04:08.736 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-04-04 12:04:08.738 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-04-04 12:04:08.744 +05:30 [DBG] Closing data reader to 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.747 +05:30 [DBG] A data reader for 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 6ms reading results.
+2024-04-04 12:04:08.747 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.747 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:04:08.763 +05:30 [INF] Applying migration '20240404055959_CityInfoDBInitialMigration'.
+2024-04-04 12:04:08.789 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:08.790 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:08.792 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-04-04 12:04:08.796 +05:30 [DBG] Began transaction with isolation level 'Serializable'.
+2024-04-04 12:04:08.797 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:04:08.797 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:08.797 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:08.797 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-04-04 12:04:08.798 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-04-04 12:04:08.798 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:04:08.798 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:08.798 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:08.798 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "MustVisits" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_MustVisits" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_MustVisits_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-04-04 12:04:08.798 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "MustVisits" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_MustVisits" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_MustVisits_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-04-04 12:04:08.798 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:04:08.798 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:08.798 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:10.613 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_MustVisits_CityId" ON "MustVisits" ("CityId");
+2024-04-04 12:04:10.614 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_MustVisits_CityId" ON "MustVisits" ("CityId");
+2024-04-04 12:04:10.614 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:04:10.614 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:10.614 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:04:10.615 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240404055959_CityInfoDBInitialMigration', '8.0.3');
+2024-04-04 12:04:10.615 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240404055959_CityInfoDBInitialMigration', '8.0.3');
+2024-04-04 12:04:10.617 +05:30 [DBG] Committing transaction.
+2024-04-04 12:04:10.623 +05:30 [DBG] Committed transaction.
+2024-04-04 12:04:10.625 +05:30 [DBG] Disposing transaction.
+2024-04-04 12:04:10.625 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:04:10.626 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:04:10.628 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 12:04:10.629 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:04:10.630 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:34:20.017 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 12:34:20.784 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 12:34:21.493 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 12:38:47.429 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 12:38:48.108 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 12:38:48.128 +05:30 [DBG] Creating DbConnection.
+2024-04-04 12:38:48.140 +05:30 [DBG] Created DbConnection. (10ms).
+2024-04-04 12:38:48.145 +05:30 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.148 +05:30 [DBG] Creating DbConnection.
+2024-04-04 12:38:48.151 +05:30 [DBG] Created DbConnection. (2ms).
+2024-04-04 12:38:48.152 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.161 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.167 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.172 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:38:48.179 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-04 12:38:48.184 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2024-04-04 12:38:48.185 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (8ms).
+2024-04-04 12:38:48.185 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.187 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.193 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 12:38:48.214 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 12:38:48.216 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.217 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-04-04 12:38:48.218 +05:30 [DBG] Creating DbConnection.
+2024-04-04 12:38:48.218 +05:30 [DBG] Created DbConnection. (0ms).
+2024-04-04 12:38:48.218 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.219 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.219 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.219 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:38:48.219 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-04 12:38:48.219 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-04-04 12:38:48.219 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-04-04 12:38:48.219 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.219 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.219 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 12:38:48.220 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 12:38:48.220 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.220 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:38:48.236 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.236 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.236 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-04 12:38:48.236 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-04 12:38:48.236 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-04-04 12:38:48.236 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-04-04 12:38:48.237 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-04-04 12:38:48.240 +05:30 [DBG] Closing data reader to 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.241 +05:30 [DBG] A data reader for 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 2ms reading results.
+2024-04-04 12:38:48.241 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.460 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (218ms).
+2024-04-04 12:38:48.471 +05:30 [INF] Applying migration '20240404070421_CityInfoDBAddMVDescription'.
+2024-04-04 12:38:48.502 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.503 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.505 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-04-04 12:38:48.508 +05:30 [DBG] Began transaction with isolation level 'Serializable'.
+2024-04-04 12:38:48.510 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:38:48.510 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:38:48.510 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:38:48.511 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "MustVisits" ADD "Description" TEXT NULL;
+2024-04-04 12:38:48.512 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "MustVisits" ADD "Description" TEXT NULL;
+2024-04-04 12:38:48.512 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 12:38:48.512 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:38:48.512 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 12:38:48.513 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240404070421_CityInfoDBAddMVDescription', '8.0.3');
+2024-04-04 12:38:48.513 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240404070421_CityInfoDBAddMVDescription', '8.0.3');
+2024-04-04 12:38:48.514 +05:30 [DBG] Committing transaction.
+2024-04-04 12:38:48.523 +05:30 [DBG] Committed transaction.
+2024-04-04 12:38:48.525 +05:30 [DBG] Disposing transaction.
+2024-04-04 12:38:48.525 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 12:38:48.525 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 12:38:48.527 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 12:38:48.528 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 12:38:48.529 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 13:04:04.328 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 13:04:05.165 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 13:04:05.885 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 13:04:16.557 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 13:04:17.389 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 13:04:17.410 +05:30 [DBG] Creating DbConnection.
+2024-04-04 13:04:17.420 +05:30 [DBG] Created DbConnection. (6ms).
+2024-04-04 13:04:17.425 +05:30 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.428 +05:30 [DBG] Creating DbConnection.
+2024-04-04 13:04:17.430 +05:30 [DBG] Created DbConnection. (2ms).
+2024-04-04 13:04:17.432 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.444 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.448 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.454 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 13:04:17.461 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-04 13:04:17.468 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2024-04-04 13:04:17.470 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (10ms).
+2024-04-04 13:04:17.470 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.473 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.479 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 13:04:17.514 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 13:04:17.515 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.518 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-04-04 13:04:17.519 +05:30 [DBG] Creating DbConnection.
+2024-04-04 13:04:17.519 +05:30 [DBG] Created DbConnection. (0ms).
+2024-04-04 13:04:17.519 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.521 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.522 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.522 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 13:04:17.522 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-04 13:04:17.522 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-04-04 13:04:17.522 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-04-04 13:04:17.522 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.523 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.523 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 13:04:17.523 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-04-04 13:04:17.524 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.524 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 13:04:17.539 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.539 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.539 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-04 13:04:17.539 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-04 13:04:17.539 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-04-04 13:04:17.539 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-04-04 13:04:17.540 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-04-04 13:04:17.543 +05:30 [DBG] Closing data reader to 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.545 +05:30 [DBG] A data reader for 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 3ms reading results.
+2024-04-04 13:04:17.545 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.545 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 13:04:17.556 +05:30 [INF] Applying migration '20240404073405_InitialDataSeed'.
+2024-04-04 13:04:17.599 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:17.599 +05:30 [DBG] Opened connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:17.602 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-04-04 13:04:17.606 +05:30 [DBG] Began transaction with isolation level 'Serializable'.
+2024-04-04 13:04:17.608 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 13:04:17.608 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 13:04:17.608 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 13:04:18.274 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with the big park', 'New York City');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with Hollywood', 'Los Angeles');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The windy city', 'Chicago');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (4, 'The space city', 'Houston');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (5, 'The sunny city', 'Miami');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (6, 'The rainy city', 'Seattle');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (7, 'The historic city', 'Boston');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (8, 'The tech city', 'San Francisco');
+SELECT changes();
+2024-04-04 13:04:18.276 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with the big park', 'New York City');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with Hollywood', 'Los Angeles');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The windy city', 'Chicago');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (4, 'The space city', 'Houston');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (5, 'The sunny city', 'Miami');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (6, 'The rainy city', 'Seattle');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (7, 'The historic city', 'Boston');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (8, 'The tech city', 'San Francisco');
+SELECT changes();
+2024-04-04 13:04:18.276 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 13:04:18.276 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 13:04:18.277 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 13:04:18.277 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited urban park in the US', 'Central Park');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A symbol of freedom and democracy', 'Statue of Liberty');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'Iconic sidewalk with stars honoring famous celebrities', 'Hollywood Walk of Fame');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'Popular film studio and theme park', 'Universal Studios Hollywood');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'A public park featuring the famous Cloud Gate sculpture', 'Millennium Park');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'A popular tourist destination with shops, restaurants, and attractions', 'Navy Pier');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (7, 4, 'Visitor center for NASA''s Johnson Space Center', 'Space Center Houston');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (8, 4, 'A collection of museums, galleries, and cultural centers', 'Houston Museum District');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (9, 5, 'Famous for its beaches, nightlife, and Art Deco architecture', 'South Beach');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (10, 5, 'A vast wilderness with unique ecosystems and wildlife', 'Everglades National Park');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (11, 6, 'Iconic observation tower with panoramic views of the city', 'Space Needle');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (12, 6, 'Historic market with shops, restaurants, and a famous fish market', 'Pike Place Market');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (13, 7, 'A walking trail that passes by 16 historic sites', 'Freedom Trail');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (14, 7, 'One of the world''s most prestigious universities', 'Harvard University');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (15, 8, 'An iconic suspension bridge spanning the Golden Gate strait', 'Golden Gate Bridge');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (16, 8, 'A historic prison turned tourist attraction', 'Alcatraz Island');
+SELECT changes();
+2024-04-04 13:04:20.351 +05:30 [INF] Executed DbCommand (2,074ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited urban park in the US', 'Central Park');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A symbol of freedom and democracy', 'Statue of Liberty');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'Iconic sidewalk with stars honoring famous celebrities', 'Hollywood Walk of Fame');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'Popular film studio and theme park', 'Universal Studios Hollywood');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'A public park featuring the famous Cloud Gate sculpture', 'Millennium Park');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'A popular tourist destination with shops, restaurants, and attractions', 'Navy Pier');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (7, 4, 'Visitor center for NASA''s Johnson Space Center', 'Space Center Houston');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (8, 4, 'A collection of museums, galleries, and cultural centers', 'Houston Museum District');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (9, 5, 'Famous for its beaches, nightlife, and Art Deco architecture', 'South Beach');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (10, 5, 'A vast wilderness with unique ecosystems and wildlife', 'Everglades National Park');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (11, 6, 'Iconic observation tower with panoramic views of the city', 'Space Needle');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (12, 6, 'Historic market with shops, restaurants, and a famous fish market', 'Pike Place Market');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (13, 7, 'A walking trail that passes by 16 historic sites', 'Freedom Trail');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (14, 7, 'One of the world''s most prestigious universities', 'Harvard University');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (15, 8, 'An iconic suspension bridge spanning the Golden Gate strait', 'Golden Gate Bridge');
+SELECT changes();
+
+INSERT INTO "MustVisits" ("Id", "CityId", "Description", "Name")
+VALUES (16, 8, 'A historic prison turned tourist attraction', 'Alcatraz Island');
+SELECT changes();
+2024-04-04 13:04:23.964 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-04 13:04:23.965 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 13:04:23.965 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-04 13:04:23.965 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240404073405_InitialDataSeed', '8.0.3');
+2024-04-04 13:04:23.965 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240404073405_InitialDataSeed', '8.0.3');
+2024-04-04 13:04:23.967 +05:30 [DBG] Committing transaction.
+2024-04-04 13:04:23.975 +05:30 [DBG] Committed transaction.
+2024-04-04 13:04:23.976 +05:30 [DBG] Disposing transaction.
+2024-04-04 13:04:23.976 +05:30 [DBG] Closing connection to database 'main' on server 'C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-04 13:04:23.977 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 13:04:23.979 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 13:04:23.981 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-04 13:04:23.981 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-04-04 18:48:01.749 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-04 18:48:02.024 +05:30 [DBG] Hosting starting
+2024-04-04 18:48:02.316 +05:30 [INF] Now listening on: https://localhost:7183
+2024-04-04 18:48:02.318 +05:30 [INF] Now listening on: http://localhost:5143
+2024-04-04 18:48:02.320 +05:30 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-04-04 18:48:02.323 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-04 18:48:02.324 +05:30 [INF] Hosting environment: Production
+2024-04-04 18:48:02.326 +05:30 [INF] Content root path: C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API
+2024-04-04 18:48:02.328 +05:30 [DBG] Hosting started
+2024-04-04 18:48:05.509 +05:30 [DBG] Connection id "0HN2KL6KT459F" received FIN.
+2024-04-04 18:48:05.516 +05:30 [DBG] Connection id "0HN2KL6KT459F" accepted.
+2024-04-04 18:48:05.523 +05:30 [DBG] Connection id "0HN2KL6KT459F" started.
+2024-04-04 18:48:05.526 +05:30 [DBG] Connection id "0HN2KL6KT459G" accepted.
+2024-04-04 18:48:05.529 +05:30 [DBG] Connection id "0HN2KL6KT459G" started.
+2024-04-04 18:48:05.542 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-04 18:48:05.754 +05:30 [DBG] Connection 0HN2KL6KT459G established using the following protocol: "Tls12"
+2024-04-04 18:48:05.916 +05:30 [DBG] Connection id "0HN2KL6KT459F" stopped.
+2024-04-04 18:48:05.924 +05:30 [DBG] Connection id "0HN2KL6KT459F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 18:48:06.018 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/cities - null null
+2024-04-04 18:48:06.024 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-04 18:48:06.061 +05:30 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-04-04 18:48:06.065 +05:30 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-04-04 18:48:06.072 +05:30 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:48:06.078 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:48:06.123 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutMustVisitsDto]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-04-04 18:48:06.130 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-04 18:48:06.133 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-04 18:48:06.138 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-04 18:48:06.142 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-04 18:48:06.147 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-04 18:48:06.155 +05:30 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-04-04 18:48:06.414 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 18:48:06.439 +05:30 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-04-04 18:48:07.402 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 18:48:07.448 +05:30 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .OrderBy(c => c.Name)'
+2024-04-04 18:48:07.705 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<City>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(200), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+        SELECT c.Id, c.Description, c.Name
+        FROM Cities AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-04 18:48:07.760 +05:30 [DBG] Creating DbConnection.
+2024-04-04 18:48:07.774 +05:30 [DBG] Created DbConnection. (12ms).
+2024-04-04 18:48:07.779 +05:30 [DBG] Opening connection to database 'main' on server ''.
+2024-04-04 18:48:07.796 +05:30 [DBG] Opened connection to database 'main' on server ''.
+2024-04-04 18:48:07.805 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-04 18:48:07.815 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2024-04-04 18:48:07.820 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (15ms).
+2024-04-04 18:48:07.830 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-04-04 18:48:07.865 +05:30 [ERR] Failed executing DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-04-04 18:48:07.873 +05:30 [DBG] Closing connection to database 'main' on server ''.
+2024-04-04 18:48:07.885 +05:30 [DBG] Closed connection to database 'main' on server '' (7ms).
+2024-04-04 18:48:07.898 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'CityInfo.API.DbContexts.CityInfoContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Cities'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Cities'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-04 18:48:07.940 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 1782.2797ms
+2024-04-04 18:48:07.946 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:48:07.996 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Cities'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at CityInfo.API.Services.CityInfoRepository.GetCitiesAsync() in C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\Services\CityInfoRepository.cs:line 19
+   at CityInfo.API.Controllers.CitiesController.GetCities() in C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\Controllers\CitiesController.cs:line 24
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-04 18:48:08.094 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-04-04 18:48:08.100 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-04-04 18:48:08.104 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2024-04-04 18:48:08.110 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-04 18:48:08.437 +05:30 [DBG] Connection id "0HN2KL6KT459G" completed keep alive response.
+2024-04-04 18:48:08.441 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 18:48:08.449 +05:30 [DBG] Disposing connection to database 'main' on server ''.
+2024-04-04 18:48:08.460 +05:30 [DBG] Disposed connection to database 'main' on server '' (8ms).
+2024-04-04 18:48:08.465 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/cities - 500 201 application/problem+json; charset=utf-8 2450.0759ms
+2024-04-04 18:50:20.169 +05:30 [DBG] Connection id "0HN2KL6KT459G" disconnecting.
+2024-04-04 18:50:20.178 +05:30 [DBG] Connection id "0HN2KL6KT459G" stopped.
+2024-04-04 18:50:20.186 +05:30 [DBG] Connection id "0HN2KL6KT459G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 18:53:07.996 +05:30 [DBG] Connection id "0HN2KL6KT459H" accepted.
+2024-04-04 18:53:07.998 +05:30 [DBG] Connection id "0HN2KL6KT459H" received FIN.
+2024-04-04 18:53:08.001 +05:30 [DBG] Connection id "0HN2KL6KT459H" started.
+2024-04-04 18:53:08.001 +05:30 [DBG] Connection id "0HN2KL6KT459I" accepted.
+2024-04-04 18:53:08.003 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-04 18:53:08.004 +05:30 [DBG] Connection id "0HN2KL6KT459I" started.
+2024-04-04 18:53:08.007 +05:30 [DBG] Connection id "0HN2KL6KT459H" stopped.
+2024-04-04 18:53:08.009 +05:30 [DBG] Connection id "0HN2KL6KT459H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 18:53:08.011 +05:30 [DBG] Connection 0HN2KL6KT459I established using the following protocol: "Tls12"
+2024-04-04 18:53:08.014 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/cities - null null
+2024-04-04 18:53:08.019 +05:30 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-04-04 18:53:08.022 +05:30 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-04-04 18:53:08.024 +05:30 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:53:08.036 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:53:08.038 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutMustVisitsDto]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-04-04 18:53:08.041 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-04 18:53:08.046 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-04 18:53:08.049 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-04 18:53:08.053 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-04 18:53:08.056 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-04 18:53:08.060 +05:30 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-04-04 18:53:08.063 +05:30 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-04-04 18:53:08.089 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 18:53:08.101 +05:30 [DBG] Creating DbConnection.
+2024-04-04 18:53:08.103 +05:30 [DBG] Created DbConnection. (2ms).
+2024-04-04 18:53:08.105 +05:30 [DBG] Opening connection to database 'main' on server ''.
+2024-04-04 18:53:08.107 +05:30 [DBG] Opened connection to database 'main' on server ''.
+2024-04-04 18:53:08.110 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-04 18:53:08.112 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-04-04 18:53:08.114 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-04-04 18:53:08.115 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-04-04 18:53:08.121 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-04-04 18:53:08.125 +05:30 [DBG] Closing connection to database 'main' on server ''.
+2024-04-04 18:53:08.128 +05:30 [DBG] Closed connection to database 'main' on server '' (2ms).
+2024-04-04 18:53:08.131 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'CityInfo.API.DbContexts.CityInfoContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Cities'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Cities'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-04 18:53:08.146 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 86.0871ms
+2024-04-04 18:53:08.148 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:53:08.152 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Cities'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at CityInfo.API.Services.CityInfoRepository.GetCitiesAsync() in C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\Services\CityInfoRepository.cs:line 19
+   at CityInfo.API.Controllers.CitiesController.GetCities() in C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\Controllers\CitiesController.cs:line 24
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-04 18:53:08.175 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-04-04 18:53:08.179 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-04-04 18:53:08.180 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2024-04-04 18:53:08.184 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-04 18:53:08.189 +05:30 [DBG] Connection id "0HN2KL6KT459I" completed keep alive response.
+2024-04-04 18:53:08.193 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 18:53:08.195 +05:30 [DBG] Disposing connection to database 'main' on server ''.
+2024-04-04 18:53:08.198 +05:30 [DBG] Disposed connection to database 'main' on server '' (2ms).
+2024-04-04 18:53:08.206 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/cities - 500 201 application/problem+json; charset=utf-8 191.6278ms
+2024-04-04 18:55:19.596 +05:30 [DBG] Connection id "0HN2KL6KT459I" disconnecting.
+2024-04-04 18:55:19.607 +05:30 [DBG] Connection id "0HN2KL6KT459I" stopped.
+2024-04-04 18:55:19.619 +05:30 [DBG] Connection id "0HN2KL6KT459I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 18:56:11.560 +05:30 [INF] Application is shutting down...
+2024-04-04 18:56:11.565 +05:30 [DBG] Hosting stopping
+2024-04-04 18:56:11.587 +05:30 [DBG] Hosting stopped
+2024-04-04 18:56:24.795 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-04 18:56:24.897 +05:30 [DBG] Hosting starting
+2024-04-04 18:56:25.100 +05:30 [INF] Now listening on: https://localhost:7183
+2024-04-04 18:56:25.102 +05:30 [INF] Now listening on: http://localhost:5143
+2024-04-04 18:56:25.104 +05:30 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-04-04 18:56:25.105 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-04 18:56:25.107 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-04 18:56:25.108 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-04 18:56:25.110 +05:30 [INF] Hosting environment: Production
+2024-04-04 18:56:25.111 +05:30 [INF] Content root path: C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API
+2024-04-04 18:56:25.113 +05:30 [DBG] Hosting started
+2024-04-04 18:56:34.615 +05:30 [DBG] Connection id "0HN2KLBCKANKD" received FIN.
+2024-04-04 18:56:34.627 +05:30 [DBG] Connection id "0HN2KLBCKANKD" accepted.
+2024-04-04 18:56:34.633 +05:30 [DBG] Connection id "0HN2KLBCKANKD" started.
+2024-04-04 18:56:34.636 +05:30 [DBG] Connection id "0HN2KLBCKANKE" accepted.
+2024-04-04 18:56:34.639 +05:30 [DBG] Connection id "0HN2KLBCKANKE" started.
+2024-04-04 18:56:34.653 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-04 18:56:34.679 +05:30 [DBG] Connection id "0HN2KLBCKANKD" stopped.
+2024-04-04 18:56:34.683 +05:30 [DBG] Connection id "0HN2KLBCKANKD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 18:56:34.691 +05:30 [DBG] Connection 0HN2KLBCKANKE established using the following protocol: "Tls12"
+2024-04-04 18:56:34.723 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/cities - null null
+2024-04-04 18:56:34.763 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-04 18:56:34.789 +05:30 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-04-04 18:56:34.796 +05:30 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-04-04 18:56:34.800 +05:30 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:56:34.805 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:56:34.856 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutMustVisitsDto]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-04-04 18:56:34.863 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-04 18:56:34.865 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-04 18:56:34.872 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-04 18:56:34.880 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-04 18:56:34.891 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-04 18:56:34.904 +05:30 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-04-04 18:56:35.031 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 18:56:35.060 +05:30 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-04-04 18:56:35.718 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-04 18:56:35.757 +05:30 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .OrderBy(c => c.Name)'
+2024-04-04 18:56:35.959 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<City>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(200), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+        SELECT c.Id, c.Description, c.Name
+        FROM Cities AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-04 18:56:35.992 +05:30 [DBG] Creating DbConnection.
+2024-04-04 18:56:36.005 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'CityInfo.API.DbContexts.CityInfoContext'.
+System.ArgumentException: Connection string keyword 'server' is not supported. For a possible alternative, see https://go.microsoft.com/fwlink/?linkid=2142181.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder..ctor(String connectionString)
+   at Microsoft.Data.Sqlite.SqliteConnectionFactory.GetPoolGroup(String connectionString)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection..ctor(String connectionString)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentException: Connection string keyword 'server' is not supported. For a possible alternative, see https://go.microsoft.com/fwlink/?linkid=2142181.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder..ctor(String connectionString)
+   at Microsoft.Data.Sqlite.SqliteConnectionFactory.GetPoolGroup(String connectionString)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection..ctor(String connectionString)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-04-04 18:56:36.027 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 1122.3258ms
+2024-04-04 18:56:36.037 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-04-04 18:56:36.042 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Connection string keyword 'server' is not supported. For a possible alternative, see https://go.microsoft.com/fwlink/?linkid=2142181.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder..ctor(String connectionString)
+   at Microsoft.Data.Sqlite.SqliteConnectionFactory.GetPoolGroup(String connectionString)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection..ctor(String connectionString)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at CityInfo.API.Services.CityInfoRepository.GetCitiesAsync() in C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\Services\CityInfoRepository.cs:line 19
+   at CityInfo.API.Controllers.CitiesController.GetCities() in C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\Controllers\CitiesController.cs:line 24
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-04 18:56:36.075 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-04-04 18:56:36.086 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-04-04 18:56:36.088 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2024-04-04 18:56:36.091 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-04 18:56:36.197 +05:30 [DBG] Connection id "0HN2KLBCKANKE" completed keep alive response.
+2024-04-04 18:56:36.203 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-04 18:56:36.211 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/cities - 500 201 application/problem+json; charset=utf-8 1489.6483ms
+2024-04-04 18:58:10.087 +05:30 [DBG] Connection id "0HN2KLBCKANKE" received FIN.
+2024-04-04 18:58:10.121 +05:30 [DBG] Connection id "0HN2KLBCKANKE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 18:58:10.124 +05:30 [DBG] Connection id "0HN2KLBCKANKE" disconnecting.
+2024-04-04 18:58:10.130 +05:30 [DBG] Connection id "0HN2KLBCKANKE" stopped.

@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\services\\cityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\cityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\models\\citywithoutmustvisitsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\models\\citywithoutmustvisitsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\dbcontexts\\cityinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\dbcontexts\\cityinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\controllers\\mustvisitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\controllers\\mustvisitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\citiesdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\citiesdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\services\\icityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\icityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\entities\\mustvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\entities\\mustvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\services\\cloudmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\cloudmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\services\\localmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\localmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\vishwas.gandhi\\desktop\\react\u002Bredux\u002Bc#\\react\u002Bredux\\c#training\\cityinfo.api\\cityinfo.api\\models\\mustvisitforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971BC3-AE28-4ED6-A6FA-9F2C47C7D18E}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\models\\mustvisitforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityWithoutMustVisitsDto.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Models\\CityWithoutMustVisitsDto.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Models\\CityWithoutMustVisitsDto.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Models\\CityWithoutMustVisitsDto.cs",
+              "RelativeToolTip": "CityInfo.API\\Models\\CityWithoutMustVisitsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:55:34.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityInfoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\CityInfoRepository.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\CityInfoRepository.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\CityInfoRepository.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\CityInfoRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAawBoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:22:19.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICityInfoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\ICityInfoRepository.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\ICityInfoRepository.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\ICityInfoRepository.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\ICityInfoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:01:05.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CityInfoContext.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "RelativeToolTip": "CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T11:39:12.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MustVisit.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Entities\\MustVisit.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Entities\\MustVisit.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Entities\\MustVisit.cs",
+              "RelativeToolTip": "CityInfo.API\\Entities\\MustVisit.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:18:48.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Entities\\City.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Entities\\City.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Entities\\City.cs",
+              "RelativeToolTip": "CityInfo.API\\Entities\\City.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:42:15.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CloudMailService.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\CloudMailService.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\CloudMailService.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\CloudMailService.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\CloudMailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T05:43:41.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMailService.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\IMailService.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\IMailService.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\IMailService.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\IMailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T05:32:30.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LocalMailService.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\LocalMailService.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\LocalMailService.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Services\\LocalMailService.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\LocalMailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:37:33.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MustVisitForUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Models\\MustVisitForUpdateDto.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Models\\MustVisitForUpdateDto.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Models\\MustVisitForUpdateDto.cs",
+              "RelativeToolTip": "CityInfo.API\\Models\\MustVisitForUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T11:57:41.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MustVisitController.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Controllers\\MustVisitController.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\MustVisitController.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Controllers\\MustVisitController.cs",
+              "RelativeToolTip": "CityInfo.API\\Controllers\\MustVisitController.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAnwL0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:47:13.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CitiesDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\CitiesDataStore.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\CitiesDataStore.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\CitiesDataStore.cs",
+              "RelativeToolTip": "CityInfo.API\\CitiesDataStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T10:35:00.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "CityInfo.API\\Controllers\\CitiesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T10:31:40.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Program.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Program.cs",
+              "ToolTip": "C:\\Users\\vishwas.gandhi\\Desktop\\React\u002BRedux\u002BC#\\React\u002BRedux\\C#Training\\CityInfo.API\\CityInfo.API\\Program.cs",
+              "RelativeToolTip": "CityInfo.API\\Program.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAcwDkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:43:49.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

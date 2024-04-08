@@ -5,10 +5,12 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.JsonPatch;
 using CityInfo.API.Services;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 namespace CityInfo.API.Controllers
 {
     [ApiController]
     [Route("api/cities/{cityId}/mustVisit")]
+    [Authorize]
     public class MustVisitController : ControllerBase
     {
         // This line declares a private field named _logger of type ILogger<MustVisitController>. 
@@ -34,6 +36,14 @@ namespace CityInfo.API.Controllers
         [HttpGet("")]
         public async Task<ActionResult<IEnumerable<MustVisitDto>>> GetMustVisit(int cityId)
         {
+
+            var cityName = User.Claims.FirstOrDefault(c => c.Type == "city")?.Value;
+
+            if (await _cityInfoRepository.CityNameMatchesCityId(cityName, cityId))
+            {
+                return Forbid();
+            }
+
             if (!await _cityInfoRepository.CityExistsAsync(cityId))
             {
                 _logger.LogInformation($"City with Id {cityId} was not found when accesing must visit places.");
@@ -63,7 +73,7 @@ namespace CityInfo.API.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult<MustVisitDto>> CreateMustVisit(int cityId, MustVisitDto
+        public async Task<ActionResult<MustVisitDto>> CreateMustVisit(int cityId, MustVisitCreationDto
          mustVisit)
         {
             if (!await _cityInfoRepository.CityExistsAsync(cityId))
@@ -81,7 +91,7 @@ namespace CityInfo.API.Controllers
             var createdMustVisitToReturn = _mapper.Map<Models.MustVisitDto>(finalMustVisit);
             // return Ok("Done");
             return CreatedAtRoute("GetSingleMustVisit",
-             new { cityId, mustVisitId = createdMustVisitToReturn.Id },
+             new { cityId = cityId, mustVisitId = createdMustVisitToReturn.Id },
               createdMustVisitToReturn);
 
             //CreatedAtAction (string? actionName, object? routeValues, object? value);
@@ -101,52 +111,42 @@ namespace CityInfo.API.Controllers
             //  resource or any other relevant data.
         }
         //Updating a resource using PUT
-        /*
-        [HttpPut("{mustVisitId}")]
-        public ActionResult UpdateMustVisit(int cityId, int mustVisitId, MustVisitForUpdateDto mustVisit)
-        {
-            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
-            if (city == null)
-            {
-                return NotFound();
-            }
-            var mustVisitFromStore = city.MustVisit.FirstOrDefault(c => c.Id == mustVisitId);
-            if (mustVisitFromStore == null)
-            {
-                return NotFound();
-            }
-            mustVisitFromStore.Name = mustVisit.Name;
-            mustVisitFromStore.Description = mustVisit.Description;
 
+        [HttpPut("{mustVisitId}")]
+        public async Task<ActionResult> UpdateMustVisit(int cityId, int mustVisitId, MustVisitForUpdateDto mustVisit)
+        {
+            if (!await _cityInfoRepository.CityExistsAsync(cityId))
+            {
+                _logger.LogInformation($"City with Id {cityId} was not found when accesing must visit places.");
+                return NotFound();
+            }
+
+            var mustVisitEntity = await _cityInfoRepository.GetMustVisitForCityAsync(cityId, mustVisitId);
+            //This special type of mapper method overrides values from destination object with source object.
+            _mapper.Map(mustVisit, mustVisitEntity);
+            await _cityInfoRepository.SaveChangesAsync();
             return NoContent();
         }
 
         //Partially updating a resource using Patch
         [HttpPatch("{mustVisitId}")]
-        public ActionResult PartiallyUpdateMustVisit(int cityId, int mustVisitId, JsonPatchDocument<MustVisitForUpdateDto> patchDocument)
+        public async Task<ActionResult> PartiallyUpdateMustVisit(int cityId, int mustVisitId, JsonPatchDocument<MustVisitForUpdateDto> patchDocument)
         {
-            // Retrieve the city from the data store based on the provided cityId
-            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
-            if (city == null)
+            if (!await _cityInfoRepository.CityExistsAsync(cityId))
             {
-                // Return a 404 Not Found response if the city is not found
+                _logger.LogInformation($"City with Id {cityId} was not found when accesing must visit places.");
                 return NotFound();
             }
 
             // Retrieve the mustVisit item from the city's MustVisit list based on the provided mustVisitId
-            var mustVisitFromStore = city.MustVisit.FirstOrDefault(c => c.Id == mustVisitId);
-            if (mustVisitFromStore == null)
+            var mustVisitEntity = await _cityInfoRepository.GetMustVisitForCityAsync(cityId, mustVisitId);
+            if (mustVisitEntity == null)
             {
                 // Return a 404 Not Found response if the mustVisit item is not found
                 return NotFound();
             }
 
-            // Create a new MustVisitForUpdateDto object to store the changes from the patch document
-            var mustVisitToPatch = new MustVisitForUpdateDto()
-            {
-                Name = mustVisitFromStore.Name, // Set initial Name property from the stored object
-                Description = mustVisitFromStore.Description // Set initial Description property from the stored object
-            };
+            var mustVisitToPatch = _mapper.Map<MustVisitForUpdateDto>(mustVisitEntity);
 
             // Apply the patch document operations to the mustVisitToPatch object
             patchDocument.ApplyTo(mustVisitToPatch, ModelState);
@@ -163,10 +163,8 @@ namespace CityInfo.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            // Apply the changes from MustVisitToPatch to the stored mustVisitFromStore object
-            mustVisitFromStore.Name = mustVisitToPatch.Name;
-            mustVisitFromStore.Description = mustVisitToPatch.Description;
-
+            _mapper.Map(mustVisitToPatch, mustVisitEntity);
+            await _cityInfoRepository.SaveChangesAsync();
             //Concatenating changes
 
             // mustVisitFromStore.Name += MustVisitToPatch.Name;
@@ -178,36 +176,34 @@ namespace CityInfo.API.Controllers
 
         //deleting content from the store
         [HttpDelete("{mustVisitId}")]
-        public ActionResult DeleteMustVisit(int cityId, int mustVisitId)
+        public async Task<ActionResult> DeleteMustVisit(int cityId, int mustVisitId)
         {
 
-            var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
-            if (city == null)
+            if (!await _cityInfoRepository.CityExistsAsync(cityId))
             {
-                // Return a 404 Not Found response if the city is not found
+                _logger.LogInformation($"City with Id {cityId} was not found when accesing must visit places.");
                 return NotFound();
             }
 
             // Retrieve the mustVisit item from the city's MustVisit list based on the provided mustVisitId
-            var mustVisitFromStore = city.MustVisit.FirstOrDefault(c => c.Id == mustVisitId);
-            if (mustVisitFromStore == null)
+            var mustVisitEntity = await _cityInfoRepository.GetMustVisitForCityAsync(cityId, mustVisitId);
+            if (mustVisitEntity == null)
             {
                 // Return a 404 Not Found response if the mustVisit item is not found
                 return NotFound();
             }
 
-            // Remove the mustVisit item from the city's MustVisit list
-            city.MustVisit.Remove(mustVisitFromStore);
-
+            _cityInfoRepository.DeleteMustVisit(mustVisitEntity);
+            await _cityInfoRepository.SaveChangesAsync();
             //
-            _mailService.Send("A Must Visit Location Deleted.", $"A Must Visit Location {mustVisitFromStore.Name} with id {mustVisitFromStore.Id} was deleted");
+            _mailService.Send("A Must Visit Location Deleted.", $"A Must Visit Location {mustVisitEntity.Name} with id {mustVisitEntity.Id} was deleted");
 
 
             // Return a 204 No Content response indicating that the delete was successful
             return NoContent();
         }
 
-*/
+
     }
 
 }

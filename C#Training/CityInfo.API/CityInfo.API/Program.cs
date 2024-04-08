@@ -3,6 +3,7 @@ using CityInfo.API.DbContexts;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -18,6 +19,21 @@ var builder = WebApplication.CreateBuilder(args);
 // builder.Logging.AddConsole();
 builder.Host.UseSerilog();
 
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new()
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Authentication:Issuer"],
+            ValidAudience = builder.Configuration["Authentication:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+            Convert.FromBase64String(builder.Configuration["Authentication:SecretForKey"]))
+        };
+    }
+    );
 
 
 //======================================= Add services to the container.========================================
@@ -96,6 +112,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 // Endpoint Routing
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

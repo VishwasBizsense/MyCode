@@ -1,0 +1,543 @@
+2024-04-07 00:39:17.449 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-07 00:39:17.755 +05:30 [DBG] Hosting starting
+2024-04-07 00:39:17.993 +05:30 [INF] Now listening on: http://localhost:5143
+2024-04-07 00:39:18.100 +05:30 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-04-07 00:39:19.765 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-07 00:39:20.753 +05:30 [INF] Hosting environment: Development
+2024-04-07 00:39:21.787 +05:30 [INF] Content root path: c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API
+2024-04-07 00:39:21.889 +05:30 [DBG] Hosting started
+2024-04-07 00:40:52.604 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" accepted.
+2024-04-07 00:40:53.380 +05:30 [DBG] Connection id "0HN2MDL3JFLTM" accepted.
+2024-04-07 00:40:53.386 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" started.
+2024-04-07 00:40:53.413 +05:30 [DBG] Connection id "0HN2MDL3JFLTM" started.
+2024-04-07 00:40:53.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/ - null null
+2024-04-07 00:40:53.517 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-07 00:40:53.550 +05:30 [DBG] The request path  does not match the path filter
+2024-04-07 00:40:53.552 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-04-07 00:40:53.588 +05:30 [DBG] No candidates found for the request path '/'
+2024-04-07 00:40:53.590 +05:30 [DBG] Request did not match any endpoints
+2024-04-07 00:40:53.598 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" completed keep alive response.
+2024-04-07 00:40:53.600 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/ - 404 0 null 95.6699ms
+2024-04-07 00:40:53.612 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5143/, Response status code: 404
+2024-04-07 00:40:58.799 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/swagger - null null
+2024-04-07 00:40:58.846 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" completed keep alive response.
+2024-04-07 00:40:58.848 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/swagger - 301 0 null 47.985ms
+2024-04-07 00:40:58.940 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/swagger/index.html - null null
+2024-04-07 00:40:59.133 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" completed keep alive response.
+2024-04-07 00:40:59.134 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/swagger/index.html - 200 null text/html;charset=utf-8 194.9102ms
+2024-04-07 00:40:59.362 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" accepted.
+2024-04-07 00:40:59.473 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/swagger/swagger-ui-bundle.js - null null
+2024-04-07 00:40:59.501 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/swagger/swagger-ui.css - null null
+2024-04-07 00:41:00.077 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" started.
+2024-04-07 00:41:00.208 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-07 00:41:00.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-07 00:41:00.847 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-07 00:41:01.302 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-07 00:41:01.303 +05:30 [DBG] Connection id "0HN2MDL3JFLTM" completed keep alive response.
+2024-04-07 00:41:01.925 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" completed keep alive response.
+2024-04-07 00:41:01.926 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" completed keep alive response.
+2024-04-07 00:41:01.981 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 2507.6613ms
+2024-04-07 00:41:01.999 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/swagger/swagger-ui.css - 200 144929 text/css 2497.4646ms
+2024-04-07 00:41:02.000 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 1154.9306ms
+2024-04-07 00:41:02.218 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/swagger/v1/swagger.json - null null
+2024-04-07 00:41:02.215 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/swagger/favicon-32x32.png - null null
+2024-04-07 00:41:02.316 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-07 00:41:02.337 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" completed keep alive response.
+2024-04-07 00:41:02.440 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/swagger/favicon-32x32.png - 200 628 image/png 225.2755ms
+2024-04-07 00:41:02.651 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" completed keep alive response.
+2024-04-07 00:41:03.312 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1093.9142ms
+2024-04-07 00:41:19.891 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/api/cities/8/mustVisit/15 - null null
+2024-04-07 00:41:20.031 +05:30 [DBG] The request path  does not match the path filter
+2024-04-07 00:41:20.041 +05:30 [DBG] 1 candidate(s) found for the request path '/api/cities/8/mustVisit/15'
+2024-04-07 00:41:20.051 +05:30 [DBG] Endpoint 'CityInfo.API.Controllers.MustVisitController.GetSingleMustVisit (CityInfo.API)' with route pattern 'api/cities/{cityId}/mustVisit/{mustVisitId}' is valid for the request path '/api/cities/8/mustVisit/15'
+2024-04-07 00:41:20.055 +05:30 [DBG] Request matched endpoint 'CityInfo.API.Controllers.MustVisitController.GetSingleMustVisit (CityInfo.API)'
+2024-04-07 00:41:20.070 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.MustVisitController.GetSingleMustVisit (CityInfo.API)'
+2024-04-07 00:41:20.161 +05:30 [INF] Route matched with {action = "GetSingleMustVisit", controller = "MustVisit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CityInfo.API.Models.MustVisitDto]] GetSingleMustVisit(Int32, Int32) on controller CityInfo.API.Controllers.MustVisitController (CityInfo.API).
+2024-04-07 00:41:20.168 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-07 00:41:20.171 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-07 00:41:20.177 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-07 00:41:20.182 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-07 00:41:20.186 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-07 00:41:20.192 +05:30 [DBG] Executing controller factory for controller CityInfo.API.Controllers.MustVisitController (CityInfo.API)
+2024-04-07 00:41:21.087 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-07 00:41:21.421 +05:30 [DBG] Executed controller factory for controller CityInfo.API.Controllers.MustVisitController (CityInfo.API)
+2024-04-07 00:41:22.355 +05:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2024-04-07 00:41:22.358 +05:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2024-04-07 00:41:22.362 +05:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:41:22.363 +05:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:41:22.365 +05:30 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2024-04-07 00:41:22.369 +05:30 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:41:22.372 +05:30 [DBG] Attempting to bind parameter 'mustVisitId' of type 'System.Int32' ...
+2024-04-07 00:41:22.376 +05:30 [DBG] Attempting to bind parameter 'mustVisitId' of type 'System.Int32' using the name 'mustVisitId' in request data ...
+2024-04-07 00:41:22.378 +05:30 [DBG] Done attempting to bind parameter 'mustVisitId' of type 'System.Int32'.
+2024-04-07 00:41:22.523 +05:30 [DBG] Done attempting to bind parameter 'mustVisitId' of type 'System.Int32'.
+2024-04-07 00:41:22.568 +05:30 [DBG] Attempting to validate the bound parameter 'mustVisitId' of type 'System.Int32' ...
+2024-04-07 00:41:23.161 +05:30 [DBG] Done attempting to validate the bound parameter 'mustVisitId' of type 'System.Int32'.
+2024-04-07 00:41:25.504 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-07 00:41:25.574 +05:30 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => __cityId_0 == c.Id)'
+2024-04-07 00:41:25.909 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE @__cityId_0 == c.Id)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-04-07 00:41:26.021 +05:30 [DBG] Creating DbConnection.
+2024-04-07 00:41:26.087 +05:30 [DBG] Created DbConnection. (60ms).
+2024-04-07 00:41:26.117 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:41:26.168 +05:30 [DBG] Opened connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:41:26.211 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-07 00:41:26.232 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (16ms).
+2024-04-07 00:41:26.295 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (78ms).
+2024-04-07 00:41:26.347 +05:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE @__cityId_0 = "c"."Id")
+2024-04-07 00:41:26.449 +05:30 [INF] Executed DbCommand (117ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE @__cityId_0 = "c"."Id")
+2024-04-07 00:41:26.469 +05:30 [DBG] Closing data reader to 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:41:26.509 +05:30 [DBG] A data reader for 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 22ms reading results.
+2024-04-07 00:41:26.530 +05:30 [DBG] Closing connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:41:26.667 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (133ms).
+2024-04-07 00:41:26.717 +05:30 [DBG] Compiling query expression: 
+'DbSet<MustVisit>()
+    .Where(m => m.CityId == __cityId_0 && m.Id == __mustVisitId_1)
+    .FirstOrDefault()'
+2024-04-07 00:41:26.839 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<MustVisit>(
+    asyncEnumerable: new SingleQueryingEnumerable<MustVisit>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MustVisit.Id (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MustVisit.CityId (int) Required FK Index, 1], [Property: MustVisit.Description (string) MaxLength(200), 2], [Property: MustVisit.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) m.Id, m.CityId, m.Description, m.Name
+            FROM MustVisits AS m
+            WHERE (m.CityId == @__cityId_0) && (m.Id == @__mustVisitId_1)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MustVisit>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-04-07 00:41:26.865 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:41:26.887 +05:30 [DBG] Opened connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:41:26.932 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-07 00:41:26.943 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2024-04-07 00:41:27.011 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (78ms).
+2024-04-07 00:41:27.037 +05:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32), @__mustVisitId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."CityId", "m"."Description", "m"."Name"
+FROM "MustVisits" AS "m"
+WHERE "m"."CityId" = @__cityId_0 AND "m"."Id" = @__mustVisitId_1
+LIMIT 1
+2024-04-07 00:41:27.082 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[@__cityId_0='?' (DbType = Int32), @__mustVisitId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."CityId", "m"."Description", "m"."Name"
+FROM "MustVisits" AS "m"
+WHERE "m"."CityId" = @__cityId_0 AND "m"."Id" = @__mustVisitId_1
+LIMIT 1
+2024-04-07 00:41:27.619 +05:30 [DBG] Context 'CityInfoContext' started tracking 'MustVisit' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-07 00:41:27.668 +05:30 [DBG] Closing data reader to 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:41:27.670 +05:30 [DBG] A data reader for 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 84ms reading results.
+2024-04-07 00:41:28.383 +05:30 [DBG] Closing connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:41:28.989 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (605ms).
+2024-04-07 00:41:29.587 +05:30 [INF] Executed action CityInfo.API.Controllers.MustVisitController.GetSingleMustVisit (CityInfo.API) in 9392.8909ms
+2024-04-07 00:41:29.590 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.MustVisitController.GetSingleMustVisit (CityInfo.API)'
+2024-04-07 00:41:29.593 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+MustVisit -> MustVisitDto
+CityInfo.API.Entities.MustVisit -> CityInfo.API.Models.MustVisitDto
+   at lambda_method59(Closure, Object, MustVisitDto, ResolutionContext)
+   at CityInfo.API.Controllers.MustVisitController.GetSingleMustVisit(Int32 cityId, Int32 mustVisitId) in c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\Controllers\MustVisitController.cs:line 59
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-07 00:41:29.776 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-04-07 00:41:29.782 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-07 00:41:30.380 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-07 00:41:30.393 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" completed keep alive response.
+2024-04-07 00:41:30.627 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-07 00:41:31.041 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:41:31.105 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (62ms).
+2024-04-07 00:41:31.126 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/api/cities/8/mustVisit/15 - 500 0 null 11234.3932ms
+2024-04-07 00:42:10.139 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/api/cities/1/mustVisit - null null
+2024-04-07 00:42:10.148 +05:30 [DBG] The request path  does not match the path filter
+2024-04-07 00:42:10.151 +05:30 [DBG] 1 candidate(s) found for the request path '/api/cities/1/mustVisit'
+2024-04-07 00:42:10.272 +05:30 [DBG] Endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)' with route pattern 'api/cities/{cityId}/mustVisit' is valid for the request path '/api/cities/1/mustVisit'
+2024-04-07 00:42:10.376 +05:30 [DBG] Request matched endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)'
+2024-04-07 00:42:10.443 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)'
+2024-04-07 00:42:10.472 +05:30 [INF] Route matched with {action = "GetMustVisit", controller = "MustVisit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.MustVisitDto]]] GetMustVisit(Int32) on controller CityInfo.API.Controllers.MustVisitController (CityInfo.API).
+2024-04-07 00:42:10.637 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-07 00:42:10.740 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-07 00:42:10.765 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-07 00:42:10.823 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-07 00:42:11.031 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-07 00:42:11.140 +05:30 [DBG] Executing controller factory for controller CityInfo.API.Controllers.MustVisitController (CityInfo.API)
+2024-04-07 00:42:11.354 +05:30 [DBG] Executed controller factory for controller CityInfo.API.Controllers.MustVisitController (CityInfo.API)
+2024-04-07 00:42:11.359 +05:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2024-04-07 00:42:11.360 +05:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2024-04-07 00:42:11.364 +05:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:42:11.365 +05:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:42:11.367 +05:30 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2024-04-07 00:42:11.369 +05:30 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:42:11.399 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-07 00:42:11.409 +05:30 [DBG] Creating DbConnection.
+2024-04-07 00:42:11.411 +05:30 [DBG] Created DbConnection. (1ms).
+2024-04-07 00:42:11.415 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:42:11.417 +05:30 [DBG] Opened connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:42:11.421 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-07 00:42:11.426 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-04-07 00:42:11.428 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-04-07 00:42:11.430 +05:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE @__cityId_0 = "c"."Id")
+2024-04-07 00:42:11.435 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE @__cityId_0 = "c"."Id")
+2024-04-07 00:42:11.440 +05:30 [DBG] Closing data reader to 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:42:11.541 +05:30 [DBG] A data reader for 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 102ms reading results.
+2024-04-07 00:42:11.546 +05:30 [DBG] Closing connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:42:11.551 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (4ms).
+2024-04-07 00:42:11.563 +05:30 [DBG] Compiling query expression: 
+'DbSet<MustVisit>()
+    .Where(m => m.CityId == __cityId_0)'
+2024-04-07 00:42:11.672 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<MustVisit>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MustVisit.Id (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MustVisit.CityId (int) Required FK Index, 1], [Property: MustVisit.Description (string) MaxLength(200), 2], [Property: MustVisit.Name (string) Required MaxLength(50), 3] }
+        SELECT m.Id, m.CityId, m.Description, m.Name
+        FROM MustVisits AS m
+        WHERE m.CityId == @__cityId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MustVisit>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-07 00:42:11.946 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:42:12.029 +05:30 [DBG] Opened connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:42:12.088 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-07 00:42:12.179 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (91ms).
+2024-04-07 00:42:12.226 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (137ms).
+2024-04-07 00:42:12.235 +05:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."CityId", "m"."Description", "m"."Name"
+FROM "MustVisits" AS "m"
+WHERE "m"."CityId" = @__cityId_0
+2024-04-07 00:42:12.275 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."CityId", "m"."Description", "m"."Name"
+FROM "MustVisits" AS "m"
+WHERE "m"."CityId" = @__cityId_0
+2024-04-07 00:42:12.296 +05:30 [DBG] Context 'CityInfoContext' started tracking 'MustVisit' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-07 00:42:12.484 +05:30 [DBG] Context 'CityInfoContext' started tracking 'MustVisit' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-07 00:42:12.667 +05:30 [DBG] Closing data reader to 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:42:12.753 +05:30 [DBG] A data reader for 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 459ms reading results.
+2024-04-07 00:42:12.826 +05:30 [DBG] Closing connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:42:12.860 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (32ms).
+2024-04-07 00:42:12.898 +05:30 [INF] Executed action CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API) in 1757.4537ms
+2024-04-07 00:42:12.909 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)'
+2024-04-07 00:42:12.925 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[CityInfo.API.Entities.MustVisit, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[CityInfo.API.Models.MustVisitDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+MustVisit -> MustVisitDto
+CityInfo.API.Entities.MustVisit -> CityInfo.API.Models.MustVisitDto
+   at lambda_method71(Closure, MustVisit, MustVisitDto, ResolutionContext)
+   at lambda_method70(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method70(Closure, Object, IEnumerable`1, ResolutionContext)
+   at CityInfo.API.Controllers.MustVisitController.GetMustVisit(Int32 cityId) in c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\Controllers\MustVisitController.cs:line 48
+   at lambda_method63(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-07 00:42:12.964 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-04-07 00:42:13.007 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-07 00:42:13.044 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-07 00:42:13.064 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" completed keep alive response.
+2024-04-07 00:42:13.266 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-07 00:42:13.438 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:42:13.447 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (8ms).
+2024-04-07 00:42:13.469 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/api/cities/1/mustVisit - 500 0 null 3329.7819ms
+2024-04-07 00:43:13.081 +05:30 [DBG] Connection id "0HN2MDL3JFLTM" disconnecting.
+2024-04-07 00:43:13.084 +05:30 [DBG] Connection id "0HN2MDL3JFLTM" stopped.
+2024-04-07 00:43:13.088 +05:30 [DBG] Connection id "0HN2MDL3JFLTM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:43:14.100 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" disconnecting.
+2024-04-07 00:43:14.117 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" stopped.
+2024-04-07 00:43:14.120 +05:30 [DBG] Connection id "0HN2MDL3JFLTL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:44:23.705 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" disconnecting.
+2024-04-07 00:44:23.707 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" stopped.
+2024-04-07 00:44:23.709 +05:30 [DBG] Connection id "0HN2MDL3JFLTN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:55:26.233 +05:30 [DBG] Connection id "0HN2MDL3JFLTO" accepted.
+2024-04-07 00:55:26.234 +05:30 [DBG] Connection id "0HN2MDL3JFLTO" received FIN.
+2024-04-07 00:55:26.235 +05:30 [DBG] Connection id "0HN2MDL3JFLTO" started.
+2024-04-07 00:55:26.236 +05:30 [DBG] Connection id "0HN2MDL3JFLTP" accepted.
+2024-04-07 00:55:26.240 +05:30 [DBG] Connection id "0HN2MDL3JFLTO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:55:26.241 +05:30 [DBG] Connection id "0HN2MDL3JFLTP" started.
+2024-04-07 00:55:26.242 +05:30 [DBG] Connection id "0HN2MDL3JFLTO" disconnecting.
+2024-04-07 00:55:26.244 +05:30 [DBG] Connection id "0HN2MDL3JFLTO" stopped.
+2024-04-07 00:55:26.249 +05:30 [DBG] Connection id "0HN2MDL3JFLTP" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2024-04-07 00:55:26.265 +05:30 [DBG] Connection id "0HN2MDL3JFLTP" disconnecting.
+2024-04-07 00:55:26.266 +05:30 [DBG] Connection id "0HN2MDL3JFLTP" received FIN.
+2024-04-07 00:55:26.266 +05:30 [DBG] Connection id "0HN2MDL3JFLTP" stopped.
+2024-04-07 00:55:26.269 +05:30 [DBG] Connection id "0HN2MDL3JFLTP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:57:56.488 +05:30 [DBG] Connection id "0HN2MDL3JFLTQ" accepted.
+2024-04-07 00:57:56.488 +05:30 [DBG] Connection id "0HN2MDL3JFLTQ" received FIN.
+2024-04-07 00:57:56.491 +05:30 [DBG] Connection id "0HN2MDL3JFLTQ" started.
+2024-04-07 00:57:56.491 +05:30 [DBG] Connection id "0HN2MDL3JFLTR" accepted.
+2024-04-07 00:57:56.494 +05:30 [DBG] Connection id "0HN2MDL3JFLTQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:57:56.497 +05:30 [DBG] Connection id "0HN2MDL3JFLTR" started.
+2024-04-07 00:57:56.498 +05:30 [DBG] Connection id "0HN2MDL3JFLTQ" disconnecting.
+2024-04-07 00:57:56.500 +05:30 [DBG] Connection id "0HN2MDL3JFLTR" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2024-04-07 00:57:56.501 +05:30 [DBG] Connection id "0HN2MDL3JFLTQ" stopped.
+2024-04-07 00:57:56.506 +05:30 [DBG] Connection id "0HN2MDL3JFLTR" disconnecting.
+2024-04-07 00:57:56.507 +05:30 [DBG] Connection id "0HN2MDL3JFLTR" received FIN.
+2024-04-07 00:57:56.510 +05:30 [DBG] Connection id "0HN2MDL3JFLTR" stopped.
+2024-04-07 00:57:56.513 +05:30 [DBG] Connection id "0HN2MDL3JFLTR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:58:02.321 +05:30 [INF] Application is shutting down...
+2024-04-07 00:58:02.323 +05:30 [DBG] Hosting stopping
+2024-04-07 00:58:02.347 +05:30 [DBG] Hosting stopped
+2024-04-07 00:58:21.319 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-07 00:58:21.414 +05:30 [DBG] Hosting starting
+2024-04-07 00:58:21.505 +05:30 [INF] Now listening on: http://localhost:5143
+2024-04-07 00:58:21.507 +05:30 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-04-07 00:58:21.508 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-07 00:58:21.509 +05:30 [INF] Hosting environment: Development
+2024-04-07 00:58:21.511 +05:30 [INF] Content root path: c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API
+2024-04-07 00:58:21.512 +05:30 [DBG] Hosting started
+2024-04-07 00:58:42.606 +05:30 [DBG] Connection id "0HN2MDV2FQHP8" received FIN.
+2024-04-07 00:58:42.607 +05:30 [DBG] Connection id "0HN2MDV2FQHP8" accepted.
+2024-04-07 00:58:42.611 +05:30 [DBG] Connection id "0HN2MDV2FQHP8" started.
+2024-04-07 00:58:42.612 +05:30 [DBG] Connection id "0HN2MDV2FQHP9" accepted.
+2024-04-07 00:58:42.614 +05:30 [DBG] Connection id "0HN2MDV2FQHP9" started.
+2024-04-07 00:58:42.617 +05:30 [DBG] Connection id "0HN2MDV2FQHP8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-07 00:58:42.620 +05:30 [DBG] Connection id "0HN2MDV2FQHP8" disconnecting.
+2024-04-07 00:58:42.623 +05:30 [DBG] Connection id "0HN2MDV2FQHP8" stopped.
+2024-04-07 00:58:42.638 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5143/api/cities/1/mustVisit - null null
+2024-04-07 00:58:42.648 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-07 00:58:42.668 +05:30 [DBG] The request path  does not match the path filter
+2024-04-07 00:58:42.672 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-04-07 00:58:42.698 +05:30 [DBG] 1 candidate(s) found for the request path '/api/cities/1/mustVisit'
+2024-04-07 00:58:42.703 +05:30 [DBG] Endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)' with route pattern 'api/cities/{cityId}/mustVisit' is valid for the request path '/api/cities/1/mustVisit'
+2024-04-07 00:58:42.708 +05:30 [DBG] Request matched endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)'
+2024-04-07 00:58:42.713 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)'
+2024-04-07 00:58:42.740 +05:30 [INF] Route matched with {action = "GetMustVisit", controller = "MustVisit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.MustVisitDto]]] GetMustVisit(Int32) on controller CityInfo.API.Controllers.MustVisitController (CityInfo.API).
+2024-04-07 00:58:42.746 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-07 00:58:42.749 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-07 00:58:42.754 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-07 00:58:42.758 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-07 00:58:42.761 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-07 00:58:42.765 +05:30 [DBG] Executing controller factory for controller CityInfo.API.Controllers.MustVisitController (CityInfo.API)
+2024-04-07 00:58:43.153 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-07 00:58:43.270 +05:30 [DBG] Executed controller factory for controller CityInfo.API.Controllers.MustVisitController (CityInfo.API)
+2024-04-07 00:58:43.276 +05:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2024-04-07 00:58:43.278 +05:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2024-04-07 00:58:43.279 +05:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:58:43.280 +05:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:58:43.281 +05:30 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2024-04-07 00:58:43.284 +05:30 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2024-04-07 00:58:44.362 +05:30 [DBG] Entity Framework Core 8.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None
+2024-04-07 00:58:44.406 +05:30 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => __cityId_0 == c.Id)'
+2024-04-07 00:58:44.576 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE @__cityId_0 == c.Id)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-04-07 00:58:44.619 +05:30 [DBG] Creating DbConnection.
+2024-04-07 00:58:44.630 +05:30 [DBG] Created DbConnection. (9ms).
+2024-04-07 00:58:44.635 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:58:44.655 +05:30 [DBG] Opened connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:58:44.661 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-07 00:58:44.670 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2024-04-07 00:58:44.676 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2024-04-07 00:58:44.689 +05:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE @__cityId_0 = "c"."Id")
+2024-04-07 00:58:44.715 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE @__cityId_0 = "c"."Id")
+2024-04-07 00:58:44.728 +05:30 [DBG] Closing data reader to 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:58:44.739 +05:30 [DBG] A data reader for 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 11ms reading results.
+2024-04-07 00:58:44.746 +05:30 [DBG] Closing connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:58:44.753 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (6ms).
+2024-04-07 00:58:44.762 +05:30 [DBG] Compiling query expression: 
+'DbSet<MustVisit>()
+    .Where(m => m.CityId == __cityId_0)'
+2024-04-07 00:58:44.804 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<MustVisit>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MustVisit.Id (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MustVisit.CityId (int) Required FK Index, 1], [Property: MustVisit.Description (string) MaxLength(200), 2], [Property: MustVisit.Name (string) Required MaxLength(50), 3] }
+        SELECT m.Id, m.CityId, m.Description, m.Name
+        FROM MustVisits AS m
+        WHERE m.CityId == @__cityId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MustVisit>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-07 00:58:44.814 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:58:44.816 +05:30 [DBG] Opened connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:58:44.818 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-07 00:58:44.819 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-04-07 00:58:44.821 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-04-07 00:58:44.823 +05:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."CityId", "m"."Description", "m"."Name"
+FROM "MustVisits" AS "m"
+WHERE "m"."CityId" = @__cityId_0
+2024-04-07 00:58:44.827 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."CityId", "m"."Description", "m"."Name"
+FROM "MustVisits" AS "m"
+WHERE "m"."CityId" = @__cityId_0
+2024-04-07 00:58:44.849 +05:30 [DBG] Context 'CityInfoContext' started tracking 'MustVisit' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-07 00:58:44.875 +05:30 [DBG] Context 'CityInfoContext' started tracking 'MustVisit' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-07 00:58:44.879 +05:30 [DBG] Closing data reader to 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:58:44.881 +05:30 [DBG] A data reader for 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 51ms reading results.
+2024-04-07 00:58:44.885 +05:30 [DBG] Closing connection to database 'main' on server 'c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-04-07 00:58:44.886 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-04-07 00:58:44.905 +05:30 [INF] Executed action CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API) in 2138.3331ms
+2024-04-07 00:58:44.910 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.MustVisitController.GetMustVisit (CityInfo.API)'
+2024-04-07 00:58:44.913 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[CityInfo.API.Entities.MustVisit, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[CityInfo.API.Models.MustVisitDto, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+MustVisit -> MustVisitDto
+CityInfo.API.Entities.MustVisit -> CityInfo.API.Models.MustVisitDto
+   at lambda_method60(Closure, MustVisit, MustVisitDto, ResolutionContext)
+   at lambda_method59(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method59(Closure, Object, IEnumerable`1, ResolutionContext)
+   at CityInfo.API.Controllers.MustVisitController.GetMustVisit(Int32 cityId) in c:\Users\vishw\Desktop\BizsenseTraining\MyCode\C#Training\CityInfo.API\CityInfo.API\Controllers\MustVisitController.cs:line 48
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-07 00:58:45.127 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-04-07 00:58:45.133 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-04-07 00:58:45.136 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2024-04-07 00:58:45.141 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-07 00:58:45.316 +05:30 [DBG] Connection id "0HN2MDV2FQHP9" completed keep alive response.
+2024-04-07 00:58:45.321 +05:30 [DBG] 'CityInfoContext' disposed.
+2024-04-07 00:58:45.329 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-04-07 00:58:45.334 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (4ms).
+2024-04-07 00:58:45.338 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5143/api/cities/1/mustVisit - 500 589 application/problem+json; charset=utf-8 2701.4224ms
+2024-04-07 01:00:55.880 +05:30 [DBG] Connection id "0HN2MDV2FQHP9" disconnecting.
+2024-04-07 01:00:55.891 +05:30 [DBG] Connection id "0HN2MDV2FQHP9" stopped.
+2024-04-07 01:00:55.899 +05:30 [DBG] Connection id "0HN2MDV2FQHP9" sending FIN because: "The Socket transport's send loop completed gracefully."

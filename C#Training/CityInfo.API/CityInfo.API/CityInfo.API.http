@@ -1,0 +1,13 @@
+﻿@CityInfo.API_HostAddress = https://localhost:7183
+
+POST {{CityInfo.API_HostAddress}}/api/authentication/authenticate
+Content-Type: application/json
+
+
+{
+    "username":"VishwasGandhi",
+    "password":"This is my password"
+}
+
+
+###

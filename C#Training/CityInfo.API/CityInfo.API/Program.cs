@@ -1,3 +1,4 @@
+using Asp.Versioning;
 using CityInfo.API;
 using CityInfo.API.DbContexts;
 using CityInfo.API.Services;
@@ -44,6 +45,14 @@ builder.Services.AddAuthorization(options =>
         policy.RequireClaim("city", "Miami");
     });
 });
+
+builder.Services.AddApiVersioning(setupAction =>
+{
+    setupAction.ReportApiVersions = true;
+    setupAction.AssumeDefaultVersionWhenUnspecified = true;
+    setupAction.DefaultApiVersion = new ApiVersion(1.0);
+}).AddMvc();
+
 
 builder.Services.AddControllers(options =>
 {
@@ -99,8 +108,8 @@ var app = builder.Build();
 
 //All types of info regarding environment 
 
-var env = app.Environment.EnvironmentName;
-var appName = app.Environment.ApplicationName;
+// var env = app.Environment.EnvironmentName;
+// var appName = app.Environment.ApplicationName;
 
 // Configure the HTTP request pipeline.
 

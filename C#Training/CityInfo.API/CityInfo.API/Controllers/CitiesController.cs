@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using Asp.Versioning;
 using AutoMapper;
 using CityInfo.API.Models;
 using CityInfo.API.Services;
@@ -9,8 +10,10 @@ using Microsoft.OpenApi.Expressions;
 namespace CityInfo.API.Controllers
 {
     [ApiController]
-    [Route("api/cities")]
+    [Route("api/v{version:apiVersion}/cities")]
     [Authorize]
+    [ApiVersion(1)]
+
     public class CitiesController : ControllerBase
     {
         //private readonly CitiesDataStore _citiesDataStore;

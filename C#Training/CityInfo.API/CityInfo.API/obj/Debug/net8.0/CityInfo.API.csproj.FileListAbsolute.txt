@@ -150,3 +150,7 @@ C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.A
 C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\vishwas.gandhi\Desktop\React+Redux+C#\React+Redux\C#Training\CityInfo.API\CityInfo.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Newtonsoft.dll

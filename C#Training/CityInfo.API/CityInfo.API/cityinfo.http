@@ -1,0 +1,26 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@schema=https
+@hostname=localhost
+@port=7183
+
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/cities/6/mustVisit
+###
+POST {{schema}}://{{hostname}}:{{port}}/api/v2/cities/6/mustVisit
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name":"Testing",
+  "description":"Testing description"
+}
+###
+POST {{schema}}://{{hostname}}:{{port}}/api/authentication/authenticate
+Content-Type: application/json
+
+{
+    "username":"VishwasGandhi",
+    "password":"This is my password"
+}
+
+###
+GET {{schema}}://{{hostname}}:{{port}}/api/v1/cities

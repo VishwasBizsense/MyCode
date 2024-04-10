@@ -10,7 +10,7 @@ namespace CityInfo.API.Controllers
 {
     [ApiController]
     [Route("api/cities/{cityId}/mustVisit")]
-    [Authorize]
+    [Authorize(Policy = "MustBeFromMiami")]
     public class MustVisitController : ControllerBase
     {
         // This line declares a private field named _logger of type ILogger<MustVisitController>. 

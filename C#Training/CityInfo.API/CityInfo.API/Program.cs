@@ -19,6 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 // builder.Logging.AddConsole();
 builder.Host.UseSerilog();
 
+//======================================= Add services to the container.========================================
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer(options =>
     {
@@ -35,8 +36,14 @@ builder.Services.AddAuthentication("Bearer")
     }
     );
 
-
-//======================================= Add services to the container.========================================
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("MustBeFromMiami", policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireClaim("city", "Miami");
+    });
+});
 
 builder.Services.AddControllers(options =>
 {

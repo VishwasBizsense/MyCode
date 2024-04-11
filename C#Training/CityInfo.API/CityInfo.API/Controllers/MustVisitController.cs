@@ -11,8 +11,9 @@ namespace CityInfo.API.Controllers
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/cities/{cityId}/mustVisit")]
-    [Authorize(Policy = "MustBeFromMiami")]
+    //[Authorize(Policy = "MustBeFromMiami")]
     [ApiVersion(2)]
+    [ApiVersion(1)]
     public class MustVisitController : ControllerBase
     {
         // This line declares a private field named _logger of type ILogger<MustVisitController>. 
@@ -67,10 +68,25 @@ namespace CityInfo.API.Controllers
             {
                 return NotFound();
             }
-            var pointOfInterest = await _cityInfoRepository.GetMustVisitForCityAsync(cityId, mustVisitId);
-            return Ok(_mapper.Map<MustVisitDto>(pointOfInterest));
+            var mustVisit = await _cityInfoRepository.GetMustVisitForCityAsync(cityId, mustVisitId);
+            return Ok(_mapper.Map<MustVisitDto>(mustVisit));
 
         }
+
+        // [HttpGet("{cityId}/{mustVisitId}", Name = "GetSingleMustVisit")]
+        // public async Task<ActionResult<MustVisitDto>> GetSingleMustVisit(int cityId, int mustVisitId)
+        // {
+        //     if (!await _cityInfoRepository.CityExistsAsync(cityId))
+        //     {
+        //         return NotFound();
+        //     }
+        //     var mustVisit = await _cityInfoRepository.GetMustVisitForCityAsync(cityId, mustVisitId);
+        //     if (mustVisit == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //     return Ok(_mapper.Map<MustVisitDto>(mustVisit));
+        // }
 
 
 
@@ -112,7 +128,37 @@ namespace CityInfo.API.Controllers
             //  as the response body. It could be the object representing the newly created
             //  resource or any other relevant data.
         }
-        //Updating a resource using PUT
+
+
+        //Updating multiple resources using post
+
+
+
+
+        // [HttpPost]
+        // public async Task<ActionResult<IEnumerable<MustVisitDto>>> CreateMustVisits(int cityId, IEnumerable<MustVisitCreationDto> mustVisits)
+        // {
+        //     if (!await _cityInfoRepository.CityExistsAsync(cityId))
+        //     {
+        //         _logger.LogInformation($"City with Id {cityId} was not found when accessing must visit places.");
+        //         return NotFound();
+        //     }
+
+        //     var finalMustVisits = mustVisits.Select(m => _mapper.Map<Entities.MustVisit>(m)).ToList();
+
+        //     await _cityInfoRepository.AddMustVisitsForCityAsync(cityId, finalMustVisits);
+
+        //     await _cityInfoRepository.SaveChangesAsync();
+
+        //     var createdMustVisitsToReturn = finalMustVisits.Select(m => _mapper.Map<Models.MustVisitDto>(m)).ToList();
+
+        //     return CreatedAtRoute("GetSingleMustVisit", createdMustVisitsToReturn.Select(m => new { cityId = cityId, mustVisitId = m.Id }), createdMustVisitsToReturn);
+
+
+        // }
+
+
+
 
         [HttpPut("{mustVisitId}")]
         public async Task<ActionResult> UpdateMustVisit(int cityId, int mustVisitId, MustVisitForUpdateDto mustVisit)

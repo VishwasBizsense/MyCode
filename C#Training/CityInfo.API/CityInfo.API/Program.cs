@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using Pomelo.EntityFrameworkCore.MySql;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
@@ -90,9 +91,22 @@ builder.Services.AddSingleton<CitiesDataStore>();
 //     dbContextOptions => dbContextOptions.UseSqlite(
 //        "Data Source=CityInfo.db"));
 
+
+var connectionSring = builder.Configuration.GetConnectionString("CityInfoConn");
+
 builder.Services.AddDbContext<CityInfoContext>(
-    dbContextOptions => dbContextOptions.UseSqlite(
-        builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
+    dbContextOptions => dbContextOptions.UseMySql(
+        connectionSring, ServerVersion.AutoDetect(connectionSring)));
+
+
+
+// builder.Services.AddDbContext<CityInfoContext>(
+//     dbContextOptions => dbContextOptions.UseSqlite(
+//         builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
+
+
+
+
 // Console.WriteLine("connection string" +builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]);
 
 //Injecting CityInfo contract and repository for scoped lifetime

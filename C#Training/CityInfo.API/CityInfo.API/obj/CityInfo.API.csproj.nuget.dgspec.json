@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj": {}
+    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+Csharp\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj": {
+    "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+Csharp\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
+        "projectUniqueName": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+Csharp\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
         "projectName": "CityInfo.API",
-        "projectPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
+        "projectPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+Csharp\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
         "packagesPath": "C:\\Users\\vishwas.gandhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+C#\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\obj\\",
+        "outputPath": "C:\\Users\\vishwas.gandhi\\Desktop\\React+Redux+Csharp\\React+Redux\\C#Training\\CityInfo.API\\CityInfo.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.Data.Sqlite.Core": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -96,6 +100,10 @@
               "target": "Package",
               "version": "[7.5.1, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -119,6 +127,10 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

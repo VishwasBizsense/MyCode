@@ -20,6 +20,20 @@ namespace CityInfo.API.Services
         }
 
 
+        // public async Task AddMustVisitsForCityAsync(int cityId, IEnumerable<MustVisit> mustVisits)
+        // {
+        //     var city = await GetCityAsync(cityId, false);
+        //     if (city != null)
+        //     {
+        //         foreach (var mustVisit in mustVisits)
+        //         {
+        //             city.MustVisits.Add(mustVisit);
+        //         }
+        //     }
+        // }
+
+
+
         public async Task<(IEnumerable<City>, PaginationMetadata)> GetCitiesAsync(string? name,
         string? searchQuery, int pageNumber, int pageSize)
         {
@@ -122,6 +136,8 @@ namespace CityInfo.API.Services
 
         }
 
+
+
         public void DeleteMustVisit(MustVisit mustVisit)
         {
             _context.MustVisits.Remove(mustVisit);
@@ -143,7 +159,5 @@ namespace CityInfo.API.Services
         {
             return (await _context.SaveChangesAsync() >= 0);
         }
-
-
     }
 }

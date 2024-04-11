@@ -20,7 +20,7 @@ namespace CityInfo.API.Services
 
     Task<bool> CityNameMatchesCityId(string? cityName, int cityId);
     Task<bool> SaveChangesAsync();
-
+    // Task AddMustVisitsForCityAsync(int cityId, IEnumerable<MustVisit> mustVisits);
 
   }
 }

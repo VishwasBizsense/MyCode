@@ -24,3 +24,4 @@ Content-Type: application/json
 
 ###
 GET {{schema}}://{{hostname}}:{{port}}/api/v1/cities
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZ2l2ZW5fbmFtZSI6IlZpc2h3YXMiLCJmYW1pbHlfbmFtZSI6IkdhbmRoaSIsImNpdHkiOiJNaWFtaSIsIm5iZiI6MTcxMjc1MzI2OCwiZXhwIjoxNzEyNzU2ODY4LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo3MTY5IiwiYXVkIjoiY2l0eWluZm9hcGkifQ.2E8gJnvz6LENy29C_73xSzEO3jiAlzhqByJARmLFMzk

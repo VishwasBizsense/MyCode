@@ -6,20 +6,20 @@ using CityInfo.API.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Expressions;
-
+using System.Data.SqlClient;
 namespace CityInfo.API.Controllers
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/cities")]
-    [Authorize]
+    //[Authorize]
     [ApiVersion(1)]
+    [ApiVersion(2)]
 
     public class CitiesController : ControllerBase
     {
         //private readonly CitiesDataStore _citiesDataStore;
         private readonly ICityInfoRepository _cityInfoRepository;
         private readonly IMapper _mapper;
-
         const int maxCitiesPageSize = 20;
 
         public CitiesController(ICityInfoRepository cityInfoRepository, IMapper mapper)
@@ -27,7 +27,9 @@ namespace CityInfo.API.Controllers
             _cityInfoRepository = cityInfoRepository ?? throw new ArgumentNullException(nameof(cityInfoRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
-        //========================================================================================================
+        //=======================================================================================================
+
+
         [HttpGet()]//this is an action to return list of cities.
 
         public async Task<ActionResult<IEnumerable<CityWithoutMustVisitsDto>>> GetCities(
@@ -35,6 +37,7 @@ namespace CityInfo.API.Controllers
 
         )
         {
+
             if (pageSize > maxCitiesPageSize)
             {
                 pageSize = maxCitiesPageSize;
